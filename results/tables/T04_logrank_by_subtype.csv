@@ -1,0 +1,5 @@
+endpoint,grouping,chi2,p_value
+Overall survival,PAM50 + claudin-low,52.677738465069005,3.91673684934101e-10
+Overall survival,Receptor status,0.22498581452313773,0.6352669573669318
+Disease-specific survival,PAM50 + claudin-low,94.4081350862535,7.954133705425657e-19
+Disease-specific survival,Receptor status,9.295721572768977,0.002296896522098465

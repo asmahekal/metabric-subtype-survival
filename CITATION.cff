@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and this software."
+title: "metabric-subtype-survival: pooled versus subtype-specific survival machine learning in METABRIC"
+version: 1.0.0
+date-released: 2026-09-27
+license: MIT
+authors:
+  - family-names: Hekal
+    given-names: Asmaa
+    email: asmaahekal3@gmail.com
+repository-code: "https://github.com/USERNAME/metabric-subtype-survival"
+keywords:
+  - breast cancer
+  - survival analysis
+  - machine learning
+  - METABRIC
+  - random survival forest
+preferred-citation:
+  type: article
+  title: "Subtype-specific training does not improve machine-learning survival prediction in breast cancer: a paired comparison with pooled models in the METABRIC cohort"
+  authors:
+    - family-names: Hekal
+      given-names: Asmaa
+  journal: "Cancers"
+  year: 2026
+  status: submitted

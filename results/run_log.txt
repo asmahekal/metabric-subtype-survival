@@ -1,0 +1,25 @@
+[     0.0s] Environment: {'python': '3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]', 'platform': 'Linux-6.12.90+-x86_64-with-glibc2.35', 'numpy': '2.5.3', 'pandas': '3.0.6', 'sklearn': '1.9.1', 'sksurv': '0.28.0', 'xgboost': '3.4.1', 'shap': '0.52.0', 'statsmodels': '0.15.0'}
+[     0.4s] Loaded /kaggle/input/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric/METABRIC_RNA_Mutation.csv: 1904 rows x 693 columns
+[     0.5s] Agreement between death_from_cancer-derived OS event and 'overall_survival' flag: 1.000
+[     0.5s] Excluded 2 patients with missing/zero follow-up or unknown vital status -> n = 1902
+[     0.7s] Features: 7 clinical numeric, 16 clinical categorical, 489 mRNA genes, 173 mutation flags
+[     0.7s] Subgroups: {'All': 1902, 'TNBC': 298, 'Basal': 199, 'HER2-enriched': 220, 'Claudin-low': 198, 'Aggressive (Basal/HER2/CL)': 617, 'LumB': 461, 'LumA': 678}
+[     6.4s] CV: 3 repeat(s) x 5 folds | models: ['CoxPH', 'CoxNet', 'RSF', 'ExtraSurvTrees', 'GBSA', 'CW-GBSA', 'SurvSVM', 'XGB-Cox'] | feature sets: ['NPI', 'Clinical', 'Genes', 'Mutations', 'Clin+Genes', 'Clin+Genes+Mut'] | subtype-specific feature sets: ['Clinical', 'Clin+Genes'] | subgroups: ['All', 'TNBC', 'Basal', 'HER2-enriched', 'Claudin-low', 'Aggressive (Basal/HER2/CL)', 'LumB', 'LumA']
+[   640.8s] Fold 1/15 (repeat 1, fold 1) done in 634s
+[  1273.8s] Fold 2/15 (repeat 1, fold 2) done in 633s
+[  1903.0s] Fold 3/15 (repeat 1, fold 3) done in 629s
+[  2540.0s] Fold 4/15 (repeat 1, fold 4) done in 637s
+[  3169.1s] Fold 5/15 (repeat 1, fold 5) done in 629s
+[  3797.7s] Fold 6/15 (repeat 2, fold 1) done in 629s
+[  4434.2s] Fold 7/15 (repeat 2, fold 2) done in 637s
+[  5062.3s] Fold 8/15 (repeat 2, fold 3) done in 628s
+[  5692.2s] Fold 9/15 (repeat 2, fold 4) done in 630s
+[  6320.0s] Fold 10/15 (repeat 2, fold 5) done in 628s
+[  6951.5s] Fold 11/15 (repeat 3, fold 1) done in 632s
+[  7582.3s] Fold 12/15 (repeat 3, fold 2) done in 631s
+[  8196.7s] Fold 13/15 (repeat 3, fold 3) done in 614s
+[  8818.7s] Fold 14/15 (repeat 3, fold 4) done in 622s
+[  9438.3s] Fold 15/15 (repeat 3, fold 5) done in 620s
+[  9460.0s] CV finished; producing figures
+[  9817.8s] Step status: {'descriptive': 'ok', 'benchmark heatmaps': 'ok', 'model bars': 'ok', 'specific vs global': 'ok', 'subgroup performance': 'ok', 'stability': 'ok', 'oof analyses': 'ok', 'shap': 'ok'}
+[  9817.8s] Total runtime 163.5 min

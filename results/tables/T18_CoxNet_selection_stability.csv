@@ -1,0 +1,2502 @@
+endpoint,strategy,subgroup,feature_set,feature,times_selected,n_folds,selection_frequency,feature_type
+DSS,global,All,Clin+Genes,aurka,15,15,1.0,gene
+DSS,global,All,Clin+Genes,gsk3b,15,15,1.0,gene
+DSS,global,All,Clin+Genes,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,global,All,Clin+Genes,nottingham_prognostic_index,15,15,1.0,clinical
+DSS,global,All,Clin+Genes,stat5a,15,15,1.0,gene
+DSS,global,All,Clin+Genes,tumor_size,15,15,1.0,clinical
+DSS,global,All,Clin+Genes,tumor_stage,15,15,1.0,clinical
+DSS,global,All,Clin+Genes,mapt,14,15,0.9333333333333333,gene
+DSS,global,All,Clin+Genes,flt3,12,15,0.8,gene
+DSS,global,All,Clin+Genes,diras3,10,15,0.6666666666666666,gene
+DSS,global,All,Clin+Genes,stat5b,10,15,0.6666666666666666,gene
+DSS,global,All,Clin+Genes,bcl2,9,15,0.6,gene
+DSS,global,All,Clin+Genes,vegfa,9,15,0.6,gene
+DSS,global,All,Clin+Genes,hsd17b8,8,15,0.5333333333333333,gene
+DSS,global,All,Clin+Genes,mmp9,8,15,0.5333333333333333,gene
+DSS,global,All,Clin+Genes,tbx3,8,15,0.5333333333333333,gene
+DSS,global,All,Clin+Genes,age_at_diagnosis,7,15,0.4666666666666667,clinical
+DSS,global,All,Clin+Genes,dll3,7,15,0.4666666666666667,gene
+DSS,global,All,Clin+Genes,map2k4,7,15,0.4666666666666667,gene
+DSS,global,All,Clin+Genes,type_of_breast_surgery_BREAST CONSERVING,7,15,0.4666666666666667,clinical
+DSS,global,All,Clin+Genes,type_of_breast_surgery_MASTECTOMY,7,15,0.4666666666666667,clinical
+DSS,global,All,Clin+Genes,e2f8,6,15,0.4,gene
+DSS,global,All,Clin+Genes,fancd2,6,15,0.4,gene
+DSS,global,All,Clin+Genes,ccnb1,5,15,0.3333333333333333,gene
+DSS,global,All,Clin+Genes,casp3,4,15,0.26666666666666666,gene
+DSS,global,All,Clin+Genes,igf1r,4,15,0.26666666666666666,gene
+DSS,global,All,Clin+Genes,rpgr,4,15,0.26666666666666666,gene
+DSS,global,All,Clin+Genes,ahnak,3,15,0.2,gene
+DSS,global,All,Clin+Genes,bard1,3,15,0.2,gene
+DSS,global,All,Clin+Genes,cir1,3,15,0.2,gene
+DSS,global,All,Clin+Genes,cxcl8,3,15,0.2,gene
+DSS,global,All,Clin+Genes,eif4ebp1,3,15,0.2,gene
+DSS,global,All,Clin+Genes,mlh1,3,15,0.2,gene
+DSS,global,All,Clin+Genes,pam50_+_claudin-low_subtype_LumA,3,15,0.2,clinical
+DSS,global,All,Clin+Genes,fn1,2,15,0.13333333333333333,gene
+DSS,global,All,Clin+Genes,hdac2,2,15,0.13333333333333333,gene
+DSS,global,All,Clin+Genes,integrative_cluster_5,2,15,0.13333333333333333,clinical
+DSS,global,All,Clin+Genes,mutation_count,2,15,0.13333333333333333,clinical
+DSS,global,All,Clin+Genes,ncoa3,2,15,0.13333333333333333,gene
+DSS,global,All,Clin+Genes,pdgfb,2,15,0.13333333333333333,gene
+DSS,global,All,Clin+Genes,ppp2r2a,2,15,0.13333333333333333,gene
+DSS,global,All,Clin+Genes,tubb4b,2,15,0.13333333333333333,gene
+DSS,global,All,Clin+Genes,cdk2,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes,col22a1,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes,e2f3,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes,gdf11,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes,hes6,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes,hsd17b7,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes,integrative_cluster_10,1,15,0.06666666666666667,clinical
+DSS,global,All,Clin+Genes,mmp15,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes,rps6kb2,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes+Mut,aurka,15,15,1.0,gene
+DSS,global,All,Clin+Genes+Mut,gsk3b,15,15,1.0,gene
+DSS,global,All,Clin+Genes+Mut,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,global,All,Clin+Genes+Mut,nottingham_prognostic_index,15,15,1.0,clinical
+DSS,global,All,Clin+Genes+Mut,stat5a,15,15,1.0,gene
+DSS,global,All,Clin+Genes+Mut,tumor_size,15,15,1.0,clinical
+DSS,global,All,Clin+Genes+Mut,tumor_stage,15,15,1.0,clinical
+DSS,global,All,Clin+Genes+Mut,mapt,14,15,0.9333333333333333,gene
+DSS,global,All,Clin+Genes+Mut,flt3,12,15,0.8,gene
+DSS,global,All,Clin+Genes+Mut,diras3,10,15,0.6666666666666666,gene
+DSS,global,All,Clin+Genes+Mut,hsd17b8,10,15,0.6666666666666666,gene
+DSS,global,All,Clin+Genes+Mut,stat5b,10,15,0.6666666666666666,gene
+DSS,global,All,Clin+Genes+Mut,vegfa,10,15,0.6666666666666666,gene
+DSS,global,All,Clin+Genes+Mut,bcl2,9,15,0.6,gene
+DSS,global,All,Clin+Genes+Mut,map2k4,8,15,0.5333333333333333,gene
+DSS,global,All,Clin+Genes+Mut,mmp9,8,15,0.5333333333333333,gene
+DSS,global,All,Clin+Genes+Mut,tbx3,8,15,0.5333333333333333,gene
+DSS,global,All,Clin+Genes+Mut,type_of_breast_surgery_BREAST CONSERVING,8,15,0.5333333333333333,clinical
+DSS,global,All,Clin+Genes+Mut,type_of_breast_surgery_MASTECTOMY,8,15,0.5333333333333333,clinical
+DSS,global,All,Clin+Genes+Mut,age_at_diagnosis,7,15,0.4666666666666667,clinical
+DSS,global,All,Clin+Genes+Mut,dll3,7,15,0.4666666666666667,gene
+DSS,global,All,Clin+Genes+Mut,pik3ca_mut,7,15,0.4666666666666667,mutation
+DSS,global,All,Clin+Genes+Mut,e2f8,6,15,0.4,gene
+DSS,global,All,Clin+Genes+Mut,fancd2,6,15,0.4,gene
+DSS,global,All,Clin+Genes+Mut,ccnb1,5,15,0.3333333333333333,gene
+DSS,global,All,Clin+Genes+Mut,bard1,4,15,0.26666666666666666,gene
+DSS,global,All,Clin+Genes+Mut,casp3,4,15,0.26666666666666666,gene
+DSS,global,All,Clin+Genes+Mut,igf1r,4,15,0.26666666666666666,gene
+DSS,global,All,Clin+Genes+Mut,pam50_+_claudin-low_subtype_LumA,4,15,0.26666666666666666,clinical
+DSS,global,All,Clin+Genes+Mut,rpgr,4,15,0.26666666666666666,gene
+DSS,global,All,Clin+Genes+Mut,cir1,3,15,0.2,gene
+DSS,global,All,Clin+Genes+Mut,cxcl8,3,15,0.2,gene
+DSS,global,All,Clin+Genes+Mut,eif4ebp1,3,15,0.2,gene
+DSS,global,All,Clin+Genes+Mut,integrative_cluster_5,3,15,0.2,clinical
+DSS,global,All,Clin+Genes+Mut,mlh1,3,15,0.2,gene
+DSS,global,All,Clin+Genes+Mut,ahnak,2,15,0.13333333333333333,gene
+DSS,global,All,Clin+Genes+Mut,fn1,2,15,0.13333333333333333,gene
+DSS,global,All,Clin+Genes+Mut,integrative_cluster_10,2,15,0.13333333333333333,clinical
+DSS,global,All,Clin+Genes+Mut,mutation_count,2,15,0.13333333333333333,clinical
+DSS,global,All,Clin+Genes+Mut,ncoa3,2,15,0.13333333333333333,gene
+DSS,global,All,Clin+Genes+Mut,pdgfb,2,15,0.13333333333333333,gene
+DSS,global,All,Clin+Genes+Mut,ppp2r2a,2,15,0.13333333333333333,gene
+DSS,global,All,Clin+Genes+Mut,tubb4b,2,15,0.13333333333333333,gene
+DSS,global,All,Clin+Genes+Mut,cdk2,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes+Mut,col22a1,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes+Mut,e2f3,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes+Mut,gata3_mut,1,15,0.06666666666666667,mutation
+DSS,global,All,Clin+Genes+Mut,gdf11,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes+Mut,hdac2,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes+Mut,hes6,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes+Mut,hsd17b4,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes+Mut,hsd17b7,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes+Mut,mmp15,1,15,0.06666666666666667,gene
+DSS,global,All,Clin+Genes+Mut,primary_tumor_laterality_Left,1,15,0.06666666666666667,clinical
+DSS,global,All,Clin+Genes+Mut,primary_tumor_laterality_Right,1,15,0.06666666666666667,clinical
+DSS,global,All,Clin+Genes+Mut,radio_therapy_0,1,15,0.06666666666666667,clinical
+DSS,global,All,Clin+Genes+Mut,radio_therapy_1,1,15,0.06666666666666667,clinical
+DSS,global,All,Clin+Genes+Mut,rps6kb2,1,15,0.06666666666666667,gene
+DSS,global,All,Clinical,age_at_diagnosis,15,15,1.0,clinical
+DSS,global,All,Clinical,integrative_cluster_3,15,15,1.0,clinical
+DSS,global,All,Clinical,integrative_cluster_5,15,15,1.0,clinical
+DSS,global,All,Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,global,All,Clinical,nottingham_prognostic_index,15,15,1.0,clinical
+DSS,global,All,Clinical,pam50_+_claudin-low_subtype_LumA,15,15,1.0,clinical
+DSS,global,All,Clinical,tumor_size,15,15,1.0,clinical
+DSS,global,All,Clinical,tumor_stage,15,15,1.0,clinical
+DSS,global,All,Clinical,type_of_breast_surgery_MASTECTOMY,15,15,1.0,clinical
+DSS,global,All,Clinical,primary_tumor_laterality_Left,14,15,0.9333333333333333,clinical
+DSS,global,All,Clinical,primary_tumor_laterality_Right,14,15,0.9333333333333333,clinical
+DSS,global,All,Clinical,radio_therapy_0,14,15,0.9333333333333333,clinical
+DSS,global,All,Clinical,radio_therapy_1,14,15,0.9333333333333333,clinical
+DSS,global,All,Clinical,type_of_breast_surgery_BREAST CONSERVING,14,15,0.9333333333333333,clinical
+DSS,global,All,Clinical,hormone_therapy_0,13,15,0.8666666666666667,clinical
+DSS,global,All,Clinical,hormone_therapy_1,13,15,0.8666666666666667,clinical
+DSS,global,All,Clinical,pr_status_Negative,13,15,0.8666666666666667,clinical
+DSS,global,All,Clinical,pr_status_Positive,13,15,0.8666666666666667,clinical
+DSS,global,All,Clinical,3-gene_classifier_subtype_ER+/HER2- High Prolif,12,15,0.8,clinical
+DSS,global,All,Clinical,pam50_+_claudin-low_subtype_claudin-low,12,15,0.8,clinical
+DSS,global,All,Clinical,er_status_Negative,11,15,0.7333333333333333,clinical
+DSS,global,All,Clinical,er_status_Positive,11,15,0.7333333333333333,clinical
+DSS,global,All,Clinical,chemotherapy_0,10,15,0.6666666666666666,clinical
+DSS,global,All,Clinical,chemotherapy_1,10,15,0.6666666666666666,clinical
+DSS,global,All,Clinical,integrative_cluster_10,9,15,0.6,clinical
+DSS,global,All,Clinical,mutation_count,9,15,0.6,clinical
+DSS,global,All,Clinical,inferred_menopausal_state_Post,8,15,0.5333333333333333,clinical
+DSS,global,All,Clinical,inferred_menopausal_state_Pre,8,15,0.5333333333333333,clinical
+DSS,global,All,Clinical,3-gene_classifier_subtype_ER+/HER2- Low Prolif,7,15,0.4666666666666667,clinical
+DSS,global,All,Clinical,integrative_cluster_2,6,15,0.4,clinical
+DSS,global,All,Clinical,neoplasm_histologic_grade,6,15,0.4,clinical
+DSS,global,All,Clinical,cellularity_High,5,15,0.3333333333333333,clinical
+DSS,global,All,Clinical,pam50_+_claudin-low_subtype_Her2,5,15,0.3333333333333333,clinical
+DSS,global,All,Clinical,3-gene_classifier_subtype_ER-/HER2-,4,15,0.26666666666666666,clinical
+DSS,global,All,Clinical,her2_status_measured_by_snp6_NEUTRAL,4,15,0.26666666666666666,clinical
+DSS,global,All,Clinical,her2_status_Negative,3,15,0.2,clinical
+DSS,global,All,Clinical,her2_status_Positive,3,15,0.2,clinical
+DSS,global,All,Clinical,integrative_cluster_9,3,15,0.2,clinical
+DSS,global,All,Clinical,cancer_type_detailed_Breast Invasive Ductal Carcinoma,2,15,0.13333333333333333,clinical
+DSS,global,All,Clinical,cellularity_Moderate,2,15,0.13333333333333333,clinical
+DSS,global,All,Clinical,integrative_cluster_6,2,15,0.13333333333333333,clinical
+DSS,global,All,Clinical,pam50_+_claudin-low_subtype_Normal,2,15,0.13333333333333333,clinical
+DSS,global,All,Clinical,3-gene_classifier_subtype_HER2+,1,15,0.06666666666666667,clinical
+DSS,global,All,Clinical,cancer_type_detailed_Breast Invasive Lobular Carcinoma,1,15,0.06666666666666667,clinical
+DSS,global,All,Clinical,er_status_measured_by_ihc_Negative,1,15,0.06666666666666667,clinical
+DSS,global,All,Clinical,er_status_measured_by_ihc_Positve,1,15,0.06666666666666667,clinical
+DSS,global,All,Clinical,her2_status_measured_by_snp6_GAIN,1,15,0.06666666666666667,clinical
+DSS,global,All,Clinical,integrative_cluster_4ER+,1,15,0.06666666666666667,clinical
+DSS,global,All,Clinical,pam50_+_claudin-low_subtype_Basal,1,15,0.06666666666666667,clinical
+DSS,global,All,Clinical,pam50_+_claudin-low_subtype_LumB,1,15,0.06666666666666667,clinical
+DSS,global,All,Genes,aurka,15,15,1.0,gene
+DSS,global,All,Genes,gsk3b,15,15,1.0,gene
+DSS,global,All,Genes,stat5a,15,15,1.0,gene
+DSS,global,All,Genes,bcl2,14,15,0.9333333333333333,gene
+DSS,global,All,Genes,igf1r,14,15,0.9333333333333333,gene
+DSS,global,All,Genes,mapt,14,15,0.9333333333333333,gene
+DSS,global,All,Genes,stat5b,14,15,0.9333333333333333,gene
+DSS,global,All,Genes,flt3,13,15,0.8666666666666667,gene
+DSS,global,All,Genes,diras3,10,15,0.6666666666666666,gene
+DSS,global,All,Genes,map2k4,10,15,0.6666666666666666,gene
+DSS,global,All,Genes,ccnb1,9,15,0.6,gene
+DSS,global,All,Genes,ncoa3,9,15,0.6,gene
+DSS,global,All,Genes,tbx3,5,15,0.3333333333333333,gene
+DSS,global,All,Genes,casp3,4,15,0.26666666666666666,gene
+DSS,global,All,Genes,dll3,4,15,0.26666666666666666,gene
+DSS,global,All,Genes,rpgr,4,15,0.26666666666666666,gene
+DSS,global,All,Genes,tubb4b,4,15,0.26666666666666666,gene
+DSS,global,All,Genes,bard1,3,15,0.2,gene
+DSS,global,All,Genes,cir1,3,15,0.2,gene
+DSS,global,All,Genes,e2f7,3,15,0.2,gene
+DSS,global,All,Genes,e2f8,3,15,0.2,gene
+DSS,global,All,Genes,eif4ebp1,2,15,0.13333333333333333,gene
+DSS,global,All,Genes,fancd2,2,15,0.13333333333333333,gene
+DSS,global,All,Genes,fn1,2,15,0.13333333333333333,gene
+DSS,global,All,Genes,mmp9,2,15,0.13333333333333333,gene
+DSS,global,All,Genes,pdgfb,2,15,0.13333333333333333,gene
+DSS,global,All,Genes,vegfa,2,15,0.13333333333333333,gene
+DSS,global,All,Genes,ccne1,1,15,0.06666666666666667,gene
+DSS,global,All,Genes,cdk1,1,15,0.06666666666666667,gene
+DSS,global,All,Genes,cdk2,1,15,0.06666666666666667,gene
+DSS,global,All,Genes,cxcl8,1,15,0.06666666666666667,gene
+DSS,global,All,Genes,gdf11,1,15,0.06666666666666667,gene
+DSS,global,All,Genes,hsd17b4,1,15,0.06666666666666667,gene
+DSS,global,All,Genes,hsd17b7,1,15,0.06666666666666667,gene
+DSS,global,All,Genes,hsd17b8,1,15,0.06666666666666667,gene
+DSS,global,All,Genes,mmp15,1,15,0.06666666666666667,gene
+DSS,global,All,Mutations,gata3_mut,15,15,1.0,mutation
+DSS,global,All,Mutations,tp53_mut,15,15,1.0,mutation
+DSS,global,All,Mutations,map3k1_mut,12,15,0.8,mutation
+DSS,global,All,Mutations,ncor2_mut,11,15,0.7333333333333333,mutation
+DSS,global,All,Mutations,pik3ca_mut,10,15,0.6666666666666666,mutation
+DSS,global,All,Mutations,arid1a_mut,9,15,0.6,mutation
+DSS,global,All,Mutations,cdh1_mut,8,15,0.5333333333333333,mutation
+DSS,global,All,Mutations,ahnak2_mut,7,15,0.4666666666666667,mutation
+DSS,global,All,Mutations,thsd7a_mut,7,15,0.4666666666666667,mutation
+DSS,global,All,Mutations,cbfb_mut,5,15,0.3333333333333333,mutation
+DSS,global,All,Mutations,lama2_mut,5,15,0.3333333333333333,mutation
+DSS,global,All,Mutations,muc16_mut,5,15,0.3333333333333333,mutation
+DSS,global,All,Mutations,dnah11_mut,4,15,0.26666666666666666,mutation
+DSS,global,All,Mutations,apc_mut,3,15,0.2,mutation
+DSS,global,All,Mutations,asxl1_mut,3,15,0.2,mutation
+DSS,global,All,Mutations,fanca_mut,3,15,0.2,mutation
+DSS,global,All,Mutations,ush2a_mut,3,15,0.2,mutation
+DSS,global,All,Mutations,birc6_mut,2,15,0.13333333333333333,mutation
+DSS,global,All,Mutations,dnah5_mut,2,15,0.13333333333333333,mutation
+DSS,global,All,Mutations,kmt2c_mut,2,15,0.13333333333333333,mutation
+DSS,global,All,Mutations,pik3r1_mut,2,15,0.13333333333333333,mutation
+DSS,global,All,Mutations,ptprd_mut,2,15,0.13333333333333333,mutation
+DSS,global,All,Mutations,sf3b1_mut,2,15,0.13333333333333333,mutation
+DSS,global,All,Mutations,taf1_mut,2,15,0.13333333333333333,mutation
+DSS,global,All,Mutations,ahnak_mut,1,15,0.06666666666666667,mutation
+DSS,global,All,Mutations,akap9_mut,1,15,0.06666666666666667,mutation
+DSS,global,All,Mutations,akt1_mut,1,15,0.06666666666666667,mutation
+DSS,global,All,Mutations,col22a1_mut,1,15,0.06666666666666667,mutation
+DSS,global,All,Mutations,ep300_mut,1,15,0.06666666666666667,mutation
+DSS,global,All,Mutations,herc2_mut,1,15,0.06666666666666667,mutation
+DSS,global,All,Mutations,kmt2d_mut,1,15,0.06666666666666667,mutation
+DSS,global,All,Mutations,myo3a_mut,1,15,0.06666666666666667,mutation
+DSS,global,All,Mutations,syne1_mut,1,15,0.06666666666666667,mutation
+DSS,global,All,Mutations,tbx3_mut,1,15,0.06666666666666667,mutation
+DSS,global,All,Mutations,thada_mut,1,15,0.06666666666666667,mutation
+DSS,global,All,Mutations,utrn_mut,1,15,0.06666666666666667,mutation
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,nottingham_prognostic_index,15,15,1.0,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,rbpj,14,15,0.9333333333333333,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,tumor_stage,14,15,0.9333333333333333,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,nr3c1,13,15,0.8666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,hes1,12,15,0.8,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,stat5b,11,15,0.7333333333333333,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,stat5a,8,15,0.5333333333333333,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,ccnd2,7,15,0.4666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,type_of_breast_surgery_BREAST CONSERVING,7,15,0.4666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,type_of_breast_surgery_MASTECTOMY,7,15,0.4666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,dll4,6,15,0.4,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,epcam,6,15,0.4,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,shbg,6,15,0.4,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,tumor_size,5,15,0.3333333333333333,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,jak2,4,15,0.26666666666666666,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,men1,4,15,0.26666666666666666,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,cir1,3,15,0.2,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,cxcl8,3,15,0.2,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,cyp11a1,3,15,0.2,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,fancd2,3,15,0.2,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,fbxw7,3,15,0.2,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,itch,3,15,0.2,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,mapt,3,15,0.2,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,nfkb1,3,15,0.2,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,stat1,3,15,0.2,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,ugt2b17,3,15,0.2,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,acvr1c,2,15,0.13333333333333333,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,akt3,2,15,0.13333333333333333,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,aurka,2,15,0.13333333333333333,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,bcl2,2,15,0.13333333333333333,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,cdkn2c,2,15,0.13333333333333333,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,cellularity_High,2,15,0.13333333333333333,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,eif4ebp1,2,15,0.13333333333333333,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,integrative_cluster_10,2,15,0.13333333333333333,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,neoplasm_histologic_grade,2,15,0.13333333333333333,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,prkcz,2,15,0.13333333333333333,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,ush2a,2,15,0.13333333333333333,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,vegfa,2,15,0.13333333333333333,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,abcb1,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,arrdc1,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,bmp3,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,cdk1,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,csf1r,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,dlec1,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,flt3,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,gps2,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,gsk3b,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,hist1h2bc,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,inhba,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,kmt2d,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,mapk6,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,mapk9,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,rdh5,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,siah1,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,smad9,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,tgfbr3,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,tp53bp1,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,tubb4a,1,15,0.06666666666666667,gene
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,nottingham_prognostic_index,15,15,1.0,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,tumor_stage,14,15,0.9333333333333333,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,tumor_size,7,15,0.4666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,pam50_+_claudin-low_subtype_claudin-low,6,15,0.4,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,integrative_cluster_5,5,15,0.3333333333333333,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,mutation_count,4,15,0.26666666666666666,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,neoplasm_histologic_grade,4,15,0.26666666666666666,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,type_of_breast_surgery_BREAST CONSERVING,4,15,0.26666666666666666,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,type_of_breast_surgery_MASTECTOMY,4,15,0.26666666666666666,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,hormone_therapy_0,3,15,0.2,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,hormone_therapy_1,3,15,0.2,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,inferred_menopausal_state_Post,3,15,0.2,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,inferred_menopausal_state_Pre,3,15,0.2,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,3-gene_classifier_subtype_ER+/HER2- High Prolif,2,15,0.13333333333333333,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,cellularity_High,2,15,0.13333333333333333,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,integrative_cluster_10,2,15,0.13333333333333333,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,pam50_+_claudin-low_subtype_Her2,2,15,0.13333333333333333,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,3-gene_classifier_subtype_ER+/HER2- Low Prolif,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,age_at_diagnosis,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,cancer_type_detailed_Breast Invasive Ductal Carcinoma,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,cancer_type_detailed_Breast Invasive Lobular Carcinoma,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,cellularity_Moderate,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,er_status_Negative,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,er_status_Positive,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,er_status_measured_by_ihc_Negative,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,er_status_measured_by_ihc_Positve,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,her2_status_measured_by_snp6_LOSS,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,integrative_cluster_3,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,integrative_cluster_6,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,integrative_cluster_7,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,pam50_+_claudin-low_subtype_Basal,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,pr_status_Negative,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,pr_status_Positive,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,primary_tumor_laterality_Left,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,primary_tumor_laterality_Right,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,radio_therapy_0,1,15,0.06666666666666667,clinical
+DSS,specific,Aggressive (Basal/HER2/CL),Clinical,radio_therapy_1,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,specific,Basal,Clin+Genes,hes1,14,15,0.9333333333333333,gene
+DSS,specific,Basal,Clin+Genes,nottingham_prognostic_index,14,15,0.9333333333333333,clinical
+DSS,specific,Basal,Clin+Genes,hsd3b2,13,15,0.8666666666666667,gene
+DSS,specific,Basal,Clin+Genes,tumor_stage,13,15,0.8666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,type_of_breast_surgery_BREAST CONSERVING,13,15,0.8666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,type_of_breast_surgery_MASTECTOMY,13,15,0.8666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,ugt2b17,13,15,0.8666666666666667,gene
+DSS,specific,Basal,Clin+Genes,map3k4,12,15,0.8,gene
+DSS,specific,Basal,Clin+Genes,acvr2b,10,15,0.6666666666666666,gene
+DSS,specific,Basal,Clin+Genes,bmp15,10,15,0.6666666666666666,gene
+DSS,specific,Basal,Clin+Genes,palb2,10,15,0.6666666666666666,gene
+DSS,specific,Basal,Clin+Genes,smad7,10,15,0.6666666666666666,gene
+DSS,specific,Basal,Clin+Genes,bmp6,9,15,0.6,gene
+DSS,specific,Basal,Clin+Genes,flt3,9,15,0.6,gene
+DSS,specific,Basal,Clin+Genes,mmp1,9,15,0.6,gene
+DSS,specific,Basal,Clin+Genes,radio_therapy_0,9,15,0.6,clinical
+DSS,specific,Basal,Clin+Genes,radio_therapy_1,9,15,0.6,clinical
+DSS,specific,Basal,Clin+Genes,cyp3a5,8,15,0.5333333333333333,gene
+DSS,specific,Basal,Clin+Genes,rps6kb2,8,15,0.5333333333333333,gene
+DSS,specific,Basal,Clin+Genes,tumor_size,8,15,0.5333333333333333,clinical
+DSS,specific,Basal,Clin+Genes,age_at_diagnosis,7,15,0.4666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,bmp7,7,15,0.4666666666666667,gene
+DSS,specific,Basal,Clin+Genes,brca2,7,15,0.4666666666666667,gene
+DSS,specific,Basal,Clin+Genes,cul1,7,15,0.4666666666666667,gene
+DSS,specific,Basal,Clin+Genes,dll4,7,15,0.4666666666666667,gene
+DSS,specific,Basal,Clin+Genes,her2_status_measured_by_snp6_NEUTRAL,7,15,0.4666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,mutation_count,7,15,0.4666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,neoplasm_histologic_grade,7,15,0.4666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,cdk6,6,15,0.4,gene
+DSS,specific,Basal,Clin+Genes,e2f6,6,15,0.4,gene
+DSS,specific,Basal,Clin+Genes,er_status_Negative,6,15,0.4,clinical
+DSS,specific,Basal,Clin+Genes,er_status_Positive,6,15,0.4,clinical
+DSS,specific,Basal,Clin+Genes,mdm2,6,15,0.4,gene
+DSS,specific,Basal,Clin+Genes,cir1,5,15,0.3333333333333333,gene
+DSS,specific,Basal,Clin+Genes,dtwd2,5,15,0.3333333333333333,gene
+DSS,specific,Basal,Clin+Genes,primary_tumor_laterality_Left,5,15,0.3333333333333333,clinical
+DSS,specific,Basal,Clin+Genes,primary_tumor_laterality_Right,5,15,0.3333333333333333,clinical
+DSS,specific,Basal,Clin+Genes,rab25,5,15,0.3333333333333333,gene
+DSS,specific,Basal,Clin+Genes,spry2,5,15,0.3333333333333333,gene
+DSS,specific,Basal,Clin+Genes,akr1c3,4,15,0.26666666666666666,gene
+DSS,specific,Basal,Clin+Genes,ccnd2,4,15,0.26666666666666666,gene
+DSS,specific,Basal,Clin+Genes,cxcl8,4,15,0.26666666666666666,gene
+DSS,specific,Basal,Clin+Genes,hes6,4,15,0.26666666666666666,gene
+DSS,specific,Basal,Clin+Genes,hormone_therapy_0,4,15,0.26666666666666666,clinical
+DSS,specific,Basal,Clin+Genes,hormone_therapy_1,4,15,0.26666666666666666,clinical
+DSS,specific,Basal,Clin+Genes,kdm3a,4,15,0.26666666666666666,gene
+DSS,specific,Basal,Clin+Genes,myc,4,15,0.26666666666666666,gene
+DSS,specific,Basal,Clin+Genes,myo3a,4,15,0.26666666666666666,gene
+DSS,specific,Basal,Clin+Genes,prkcq,4,15,0.26666666666666666,gene
+DSS,specific,Basal,Clin+Genes,shbg,4,15,0.26666666666666666,gene
+DSS,specific,Basal,Clin+Genes,stat3,4,15,0.26666666666666666,gene
+DSS,specific,Basal,Clin+Genes,abcc1,3,15,0.2,gene
+DSS,specific,Basal,Clin+Genes,akt3,3,15,0.2,gene
+DSS,specific,Basal,Clin+Genes,cellularity_Moderate,3,15,0.2,clinical
+DSS,specific,Basal,Clin+Genes,ctnna1,3,15,0.2,gene
+DSS,specific,Basal,Clin+Genes,dph1,3,15,0.2,gene
+DSS,specific,Basal,Clin+Genes,fancd2,3,15,0.2,gene
+DSS,specific,Basal,Clin+Genes,folr3,3,15,0.2,gene
+DSS,specific,Basal,Clin+Genes,hsd17b14,3,15,0.2,gene
+DSS,specific,Basal,Clin+Genes,integrative_cluster_10,3,15,0.2,clinical
+DSS,specific,Basal,Clin+Genes,kmt2c,3,15,0.2,gene
+DSS,specific,Basal,Clin+Genes,notch1,3,15,0.2,gene
+DSS,specific,Basal,Clin+Genes,ptpn22,3,15,0.2,gene
+DSS,specific,Basal,Clin+Genes,st7,3,15,0.2,gene
+DSS,specific,Basal,Clin+Genes,stat1,3,15,0.2,gene
+DSS,specific,Basal,Clin+Genes,stmn2,3,15,0.2,gene
+DSS,specific,Basal,Clin+Genes,wfdc2,3,15,0.2,gene
+DSS,specific,Basal,Clin+Genes,ahnak2,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,atm,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,bad,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,cancer_type_detailed_Breast Invasive Ductal Carcinoma,2,15,0.13333333333333333,clinical
+DSS,specific,Basal,Clin+Genes,cancer_type_detailed_infrequent_sklearn,2,15,0.13333333333333333,clinical
+DSS,specific,Basal,Clin+Genes,cdkn1a,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,chd1,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,ctnna3,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,dlec1,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,e2f7,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,er_status_measured_by_ihc_Negative,2,15,0.13333333333333333,clinical
+DSS,specific,Basal,Clin+Genes,er_status_measured_by_ihc_Positve,2,15,0.13333333333333333,clinical
+DSS,specific,Basal,Clin+Genes,folr1,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,her2_status_measured_by_snp6_GAIN,2,15,0.13333333333333333,clinical
+DSS,specific,Basal,Clin+Genes,hsd3b7,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,integrative_cluster_9,2,15,0.13333333333333333,clinical
+DSS,specific,Basal,Clin+Genes,integrative_cluster_infrequent_sklearn,2,15,0.13333333333333333,clinical
+DSS,specific,Basal,Clin+Genes,itgb3,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,map2,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,map3k5,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,mmp3,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,ppp2r2a,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,prkcz,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,prkg1,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,rasgef1b,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,slc19a1,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,slco1b3,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,smad9,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,tg,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,ubr5,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,zfyve9,2,15,0.13333333333333333,gene
+DSS,specific,Basal,Clin+Genes,acvr1b,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,akr1c4,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,arid5b,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,bmpr1b,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,ccnb1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,cdkn2a,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,cellularity_High,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,cellularity_Low,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,chek2,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,chemotherapy_0,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,chemotherapy_1,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,col22a1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,cyp11a1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,cyp17a1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,cyp21a2,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,dtx3,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,e2f1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,fanca,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,fgfr1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,foxo3,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,foxp1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,gata3,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,her2_status_Negative,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,her2_status_Positive,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,hey1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,hsd17b12,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,hsd17b13,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,igf1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,inferred_menopausal_state_Post,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,inferred_menopausal_state_Pre,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,izumo1r,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,ldlrap1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,lipi,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,map3k10,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,map3k3,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,mapk1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,mapk12,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,ncor2,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,nfkb1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,opcml,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,pbrm1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,pr_status_Negative,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,pr_status_Positive,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clin+Genes,psen2,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,serpini1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,setd2,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,siah1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,slc29a1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,snw1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,sptbn1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,stab2,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,star,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,stat5a,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,taf1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,tgfb1,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,tnk2,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,ugt2b7,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,ush2a,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clin+Genes,usp9x,1,15,0.06666666666666667,gene
+DSS,specific,Basal,Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,specific,Basal,Clinical,nottingham_prognostic_index,13,15,0.8666666666666667,clinical
+DSS,specific,Basal,Clinical,tumor_stage,9,15,0.6,clinical
+DSS,specific,Basal,Clinical,mutation_count,2,15,0.13333333333333333,clinical
+DSS,specific,Basal,Clinical,tumor_size,2,15,0.13333333333333333,clinical
+DSS,specific,Basal,Clinical,type_of_breast_surgery_BREAST CONSERVING,2,15,0.13333333333333333,clinical
+DSS,specific,Basal,Clinical,type_of_breast_surgery_MASTECTOMY,2,15,0.13333333333333333,clinical
+DSS,specific,Basal,Clinical,age_at_diagnosis,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clinical,cellularity_High,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clinical,inferred_menopausal_state_Post,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clinical,inferred_menopausal_state_Pre,1,15,0.06666666666666667,clinical
+DSS,specific,Basal,Clinical,neoplasm_histologic_grade,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clin+Genes,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,specific,Claudin-low,Clin+Genes,nottingham_prognostic_index,15,15,1.0,clinical
+DSS,specific,Claudin-low,Clin+Genes,shank2,11,15,0.7333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,smarcb1,10,15,0.6666666666666666,gene
+DSS,specific,Claudin-low,Clin+Genes,frmd3,9,15,0.6,gene
+DSS,specific,Claudin-low,Clin+Genes,heyl,9,15,0.6,gene
+DSS,specific,Claudin-low,Clin+Genes,mutation_count,9,15,0.6,clinical
+DSS,specific,Claudin-low,Clin+Genes,shbg,9,15,0.6,gene
+DSS,specific,Claudin-low,Clin+Genes,akap9,8,15,0.5333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,map2k4,8,15,0.5333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,notch3,8,15,0.5333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,bmp7,7,15,0.4666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,col6a3,7,15,0.4666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,hist1h2bc,7,15,0.4666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,tumor_stage,7,15,0.4666666666666667,clinical
+DSS,specific,Claudin-low,Clin+Genes,ppp2r2a,6,15,0.4,gene
+DSS,specific,Claudin-low,Clin+Genes,tbx3,6,15,0.4,gene
+DSS,specific,Claudin-low,Clin+Genes,tgfb2,6,15,0.4,gene
+DSS,specific,Claudin-low,Clin+Genes,aurka,5,15,0.3333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,pdgfb,5,15,0.3333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,stat5b,5,15,0.3333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,tumor_size,5,15,0.3333333333333333,clinical
+DSS,specific,Claudin-low,Clin+Genes,cdk4,4,15,0.26666666666666666,gene
+DSS,specific,Claudin-low,Clin+Genes,cdk8,4,15,0.26666666666666666,gene
+DSS,specific,Claudin-low,Clin+Genes,cellularity_Moderate,4,15,0.26666666666666666,clinical
+DSS,specific,Claudin-low,Clin+Genes,cxcr2,4,15,0.26666666666666666,gene
+DSS,specific,Claudin-low,Clin+Genes,eif5a2,4,15,0.26666666666666666,gene
+DSS,specific,Claudin-low,Clin+Genes,gsk3b,4,15,0.26666666666666666,gene
+DSS,specific,Claudin-low,Clin+Genes,integrative_cluster_10,4,15,0.26666666666666666,clinical
+DSS,specific,Claudin-low,Clin+Genes,mapt,4,15,0.26666666666666666,gene
+DSS,specific,Claudin-low,Clin+Genes,mmp11,4,15,0.26666666666666666,gene
+DSS,specific,Claudin-low,Clin+Genes,mmp21,4,15,0.26666666666666666,gene
+DSS,specific,Claudin-low,Clin+Genes,myo1a,4,15,0.26666666666666666,gene
+DSS,specific,Claudin-low,Clin+Genes,prkg1,4,15,0.26666666666666666,gene
+DSS,specific,Claudin-low,Clin+Genes,rad51d,4,15,0.26666666666666666,gene
+DSS,specific,Claudin-low,Clin+Genes,smarcc1,4,15,0.26666666666666666,gene
+DSS,specific,Claudin-low,Clin+Genes,3-gene_classifier_subtype_infrequent_sklearn,3,15,0.2,clinical
+DSS,specific,Claudin-low,Clin+Genes,age_at_diagnosis,3,15,0.2,clinical
+DSS,specific,Claudin-low,Clin+Genes,er_status_Negative,3,15,0.2,clinical
+DSS,specific,Claudin-low,Clin+Genes,er_status_Positive,3,15,0.2,clinical
+DSS,specific,Claudin-low,Clin+Genes,fbxw7,3,15,0.2,gene
+DSS,specific,Claudin-low,Clin+Genes,hes5,3,15,0.2,gene
+DSS,specific,Claudin-low,Clin+Genes,igf1r,3,15,0.2,gene
+DSS,specific,Claudin-low,Clin+Genes,inferred_menopausal_state_Post,3,15,0.2,clinical
+DSS,specific,Claudin-low,Clin+Genes,inferred_menopausal_state_Pre,3,15,0.2,clinical
+DSS,specific,Claudin-low,Clin+Genes,integrative_cluster_4ER+,3,15,0.2,clinical
+DSS,specific,Claudin-low,Clin+Genes,l1cam,3,15,0.2,gene
+DSS,specific,Claudin-low,Clin+Genes,mmp13,3,15,0.2,gene
+DSS,specific,Claudin-low,Clin+Genes,palb2,3,15,0.2,gene
+DSS,specific,Claudin-low,Clin+Genes,rad51,3,15,0.2,gene
+DSS,specific,Claudin-low,Clin+Genes,rps6kb2,3,15,0.2,gene
+DSS,specific,Claudin-low,Clin+Genes,spen,3,15,0.2,gene
+DSS,specific,Claudin-low,Clin+Genes,stat3,3,15,0.2,gene
+DSS,specific,Claudin-low,Clin+Genes,tubb4a,3,15,0.2,gene
+DSS,specific,Claudin-low,Clin+Genes,3-gene_classifier_subtype_ER+/HER2- Low Prolif,2,15,0.13333333333333333,clinical
+DSS,specific,Claudin-low,Clin+Genes,acvr1c,2,15,0.13333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,arid5b,2,15,0.13333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,cdk1,2,15,0.13333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,cellularity_Low,2,15,0.13333333333333333,clinical
+DSS,specific,Claudin-low,Clin+Genes,chemotherapy_0,2,15,0.13333333333333333,clinical
+DSS,specific,Claudin-low,Clin+Genes,chemotherapy_1,2,15,0.13333333333333333,clinical
+DSS,specific,Claudin-low,Clin+Genes,dtx2,2,15,0.13333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,er_status_measured_by_ihc_Negative,2,15,0.13333333333333333,clinical
+DSS,specific,Claudin-low,Clin+Genes,er_status_measured_by_ihc_Positve,2,15,0.13333333333333333,clinical
+DSS,specific,Claudin-low,Clin+Genes,erbb3,2,15,0.13333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,inhba,2,15,0.13333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,integrative_cluster_4ER-,2,15,0.13333333333333333,clinical
+DSS,specific,Claudin-low,Clin+Genes,kit,2,15,0.13333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,large1,2,15,0.13333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,maml3,2,15,0.13333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,primary_tumor_laterality_Left,2,15,0.13333333333333333,clinical
+DSS,specific,Claudin-low,Clin+Genes,primary_tumor_laterality_Right,2,15,0.13333333333333333,clinical
+DSS,specific,Claudin-low,Clin+Genes,setd2,2,15,0.13333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,sox9,2,15,0.13333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,tubb4b,2,15,0.13333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,wfdc2,2,15,0.13333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,wwox,2,15,0.13333333333333333,gene
+DSS,specific,Claudin-low,Clin+Genes,ackr3,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,acvr1,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,acvr1b,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,adam17,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,bap1,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,bcl2,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,casp7,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,casp9,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,ccne1,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,cdk2,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,cyp11a1,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,dll3,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,e2f2,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,fanca,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,fancd2,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,her2_status_measured_by_snp6_GAIN,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clin+Genes,hey1,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,hormone_therapy_0,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clin+Genes,hormone_therapy_1,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clin+Genes,hras,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,hsd17b4,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,hsd3b1,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,integrative_cluster_infrequent_sklearn,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clin+Genes,itch,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,jak2,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,ldlrap1,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,mlh1,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,mmp10,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,mmp2,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,mmp9,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,ncoa3,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,ncstn,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,neoplasm_histologic_grade,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clin+Genes,npnt,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,rad51c,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,radio_therapy_0,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clin+Genes,radio_therapy_1,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clin+Genes,rb1,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,rbl1,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,smad7,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,stat5a,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clin+Genes,tgfb1,1,15,0.06666666666666667,gene
+DSS,specific,Claudin-low,Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,specific,Claudin-low,Clinical,nottingham_prognostic_index,15,15,1.0,clinical
+DSS,specific,Claudin-low,Clinical,tumor_stage,12,15,0.8,clinical
+DSS,specific,Claudin-low,Clinical,tumor_size,8,15,0.5333333333333333,clinical
+DSS,specific,Claudin-low,Clinical,mutation_count,5,15,0.3333333333333333,clinical
+DSS,specific,Claudin-low,Clinical,3-gene_classifier_subtype_ER+/HER2- Low Prolif,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clinical,3-gene_classifier_subtype_infrequent_sklearn,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clinical,age_at_diagnosis,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clinical,cellularity_Low,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clinical,cellularity_Moderate,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clinical,chemotherapy_0,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clinical,chemotherapy_1,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clinical,er_status_measured_by_ihc_Negative,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clinical,er_status_measured_by_ihc_Positve,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clinical,inferred_menopausal_state_Post,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clinical,inferred_menopausal_state_Pre,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clinical,integrative_cluster_10,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clinical,integrative_cluster_4ER-,1,15,0.06666666666666667,clinical
+DSS,specific,Claudin-low,Clinical,neoplasm_histologic_grade,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clin+Genes,nottingham_prognostic_index,15,15,1.0,clinical
+DSS,specific,HER2-enriched,Clin+Genes,lymph_nodes_examined_positive,14,15,0.9333333333333333,clinical
+DSS,specific,HER2-enriched,Clin+Genes,tumor_size,14,15,0.9333333333333333,clinical
+DSS,specific,HER2-enriched,Clin+Genes,age_at_diagnosis,11,15,0.7333333333333333,clinical
+DSS,specific,HER2-enriched,Clin+Genes,neoplasm_histologic_grade,11,15,0.7333333333333333,clinical
+DSS,specific,HER2-enriched,Clin+Genes,tumor_stage,11,15,0.7333333333333333,clinical
+DSS,specific,HER2-enriched,Clin+Genes,dll4,10,15,0.6666666666666666,gene
+DSS,specific,HER2-enriched,Clin+Genes,mapk14,10,15,0.6666666666666666,gene
+DSS,specific,HER2-enriched,Clin+Genes,map2,9,15,0.6,gene
+DSS,specific,HER2-enriched,Clin+Genes,mutation_count,9,15,0.6,clinical
+DSS,specific,HER2-enriched,Clin+Genes,smad1,9,15,0.6,gene
+DSS,specific,HER2-enriched,Clin+Genes,ttyh1,8,15,0.5333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,3-gene_classifier_subtype_ER+/HER2- High Prolif,7,15,0.4666666666666667,clinical
+DSS,specific,HER2-enriched,Clin+Genes,abcc1,7,15,0.4666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,cdkn1a,7,15,0.4666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,ctbp1,7,15,0.4666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,eif5a2,7,15,0.4666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,hormone_therapy_0,7,15,0.4666666666666667,clinical
+DSS,specific,HER2-enriched,Clin+Genes,hormone_therapy_1,7,15,0.4666666666666667,clinical
+DSS,specific,HER2-enriched,Clin+Genes,type_of_breast_surgery_BREAST CONSERVING,7,15,0.4666666666666667,clinical
+DSS,specific,HER2-enriched,Clin+Genes,type_of_breast_surgery_MASTECTOMY,7,15,0.4666666666666667,clinical
+DSS,specific,HER2-enriched,Clin+Genes,cellularity_Moderate,6,15,0.4,clinical
+DSS,specific,HER2-enriched,Clin+Genes,her2_status_measured_by_snp6_GAIN,6,15,0.4,clinical
+DSS,specific,HER2-enriched,Clin+Genes,rbpj,6,15,0.4,gene
+DSS,specific,HER2-enriched,Clin+Genes,smad6,6,15,0.4,gene
+DSS,specific,HER2-enriched,Clin+Genes,3-gene_classifier_subtype_ER-/HER2-,5,15,0.3333333333333333,clinical
+DSS,specific,HER2-enriched,Clin+Genes,cellularity_High,5,15,0.3333333333333333,clinical
+DSS,specific,HER2-enriched,Clin+Genes,chek1,5,15,0.3333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,integrative_cluster_1,5,15,0.3333333333333333,clinical
+DSS,specific,HER2-enriched,Clin+Genes,stat5b,5,15,0.3333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,tnk2,5,15,0.3333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,vegfa,5,15,0.3333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,ahnak,4,15,0.26666666666666666,gene
+DSS,specific,HER2-enriched,Clin+Genes,bcl2,4,15,0.26666666666666666,gene
+DSS,specific,HER2-enriched,Clin+Genes,dlec1,4,15,0.26666666666666666,gene
+DSS,specific,HER2-enriched,Clin+Genes,er_status_Negative,4,15,0.26666666666666666,clinical
+DSS,specific,HER2-enriched,Clin+Genes,er_status_Positive,4,15,0.26666666666666666,clinical
+DSS,specific,HER2-enriched,Clin+Genes,hes1,4,15,0.26666666666666666,gene
+DSS,specific,HER2-enriched,Clin+Genes,hes5,4,15,0.26666666666666666,gene
+DSS,specific,HER2-enriched,Clin+Genes,large1,4,15,0.26666666666666666,gene
+DSS,specific,HER2-enriched,Clin+Genes,mmp16,4,15,0.26666666666666666,gene
+DSS,specific,HER2-enriched,Clin+Genes,siah1,4,15,0.26666666666666666,gene
+DSS,specific,HER2-enriched,Clin+Genes,slc29a1,4,15,0.26666666666666666,gene
+DSS,specific,HER2-enriched,Clin+Genes,3-gene_classifier_subtype_HER2+,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,arid1a,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,chemotherapy_0,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,chemotherapy_1,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,ctcf,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,dnah11,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,e2f7,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,er_status_measured_by_ihc_Negative,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,er_status_measured_by_ihc_Positve,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,fgf1,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,her2_status_Negative,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,her2_status_Positive,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,her2_status_measured_by_snp6_NEUTRAL,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,her2_status_measured_by_snp6_infrequent_sklearn,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,hsd17b13,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,integrative_cluster_4ER-,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,integrative_cluster_9,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,integrative_cluster_infrequent_sklearn,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,map2k5,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,mapk9,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,men1,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,nr3c1,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,primary_tumor_laterality_Left,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,primary_tumor_laterality_Right,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,radio_therapy_0,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,radio_therapy_1,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clin+Genes,srd5a1,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,stat1,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,tg,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,tubb1,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,ush2a,3,15,0.2,gene
+DSS,specific,HER2-enriched,Clin+Genes,3-gene_classifier_subtype_infrequent_sklearn,2,15,0.13333333333333333,clinical
+DSS,specific,HER2-enriched,Clin+Genes,agmo,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,akt3,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,bad,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,bap1,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,cancer_type_detailed_infrequent_sklearn,2,15,0.13333333333333333,clinical
+DSS,specific,HER2-enriched,Clin+Genes,casp3,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,cellularity_Low,2,15,0.13333333333333333,clinical
+DSS,specific,HER2-enriched,Clin+Genes,cxcl8,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,cyb5a,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,fbxw7,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,folr3,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,hras,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,hsd17b2,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,igf1r,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,integrative_cluster_5,2,15,0.13333333333333333,clinical
+DSS,specific,HER2-enriched,Clin+Genes,l1cam,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,maml2,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,map2k1,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,map2k2,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,mapk4,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,mapk6,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,mmp15,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,mmp23b,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,nbn,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,pr_status_Negative,2,15,0.13333333333333333,clinical
+DSS,specific,HER2-enriched,Clin+Genes,pr_status_Positive,2,15,0.13333333333333333,clinical
+DSS,specific,HER2-enriched,Clin+Genes,ptprm,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,rab25,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,rad51,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,sox9,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,srd5a2,2,15,0.13333333333333333,gene
+DSS,specific,HER2-enriched,Clin+Genes,3-gene_classifier_subtype_ER+/HER2- Low Prolif,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clin+Genes,afdn,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,aph1b,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,arid1b,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,brca1,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,cancer_type_detailed_Breast Invasive Lobular Carcinoma,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clin+Genes,casp9,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,ccnd1,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,ccnd3,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,cdkn2b,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,diras3,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,dph1,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,dtx3,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,e2f3,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,e2f4,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,eif4e,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,epcam,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,erbb2,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,gh1,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,gldc,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,hsd3b7,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,inferred_menopausal_state_Post,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clin+Genes,inferred_menopausal_state_Pre,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clin+Genes,itch,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,klrg1,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,lfng,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,mapt,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,notch1,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,nr2f1,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,numb,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,pms2,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,psen1,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,rad50,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,setd2,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,smad2,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,snw1,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,star,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,stat2,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,thsd7a,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,tp53bp1,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,ugt2b15,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,ugt2b17,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clin+Genes,zfp36l1,1,15,0.06666666666666667,gene
+DSS,specific,HER2-enriched,Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,specific,HER2-enriched,Clinical,nottingham_prognostic_index,15,15,1.0,clinical
+DSS,specific,HER2-enriched,Clinical,tumor_size,9,15,0.6,clinical
+DSS,specific,HER2-enriched,Clinical,tumor_stage,8,15,0.5333333333333333,clinical
+DSS,specific,HER2-enriched,Clinical,age_at_diagnosis,7,15,0.4666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,mutation_count,7,15,0.4666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,neoplasm_histologic_grade,7,15,0.4666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,er_status_Negative,6,15,0.4,clinical
+DSS,specific,HER2-enriched,Clinical,er_status_Positive,6,15,0.4,clinical
+DSS,specific,HER2-enriched,Clinical,hormone_therapy_0,6,15,0.4,clinical
+DSS,specific,HER2-enriched,Clinical,hormone_therapy_1,6,15,0.4,clinical
+DSS,specific,HER2-enriched,Clinical,3-gene_classifier_subtype_ER+/HER2- High Prolif,5,15,0.3333333333333333,clinical
+DSS,specific,HER2-enriched,Clinical,cellularity_Moderate,5,15,0.3333333333333333,clinical
+DSS,specific,HER2-enriched,Clinical,integrative_cluster_5,5,15,0.3333333333333333,clinical
+DSS,specific,HER2-enriched,Clinical,chemotherapy_0,4,15,0.26666666666666666,clinical
+DSS,specific,HER2-enriched,Clinical,chemotherapy_1,4,15,0.26666666666666666,clinical
+DSS,specific,HER2-enriched,Clinical,integrative_cluster_infrequent_sklearn,4,15,0.26666666666666666,clinical
+DSS,specific,HER2-enriched,Clinical,type_of_breast_surgery_BREAST CONSERVING,4,15,0.26666666666666666,clinical
+DSS,specific,HER2-enriched,Clinical,type_of_breast_surgery_MASTECTOMY,4,15,0.26666666666666666,clinical
+DSS,specific,HER2-enriched,Clinical,3-gene_classifier_subtype_ER-/HER2-,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clinical,cellularity_High,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clinical,primary_tumor_laterality_Left,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clinical,primary_tumor_laterality_Right,3,15,0.2,clinical
+DSS,specific,HER2-enriched,Clinical,her2_status_measured_by_snp6_NEUTRAL,2,15,0.13333333333333333,clinical
+DSS,specific,HER2-enriched,Clinical,her2_status_measured_by_snp6_infrequent_sklearn,2,15,0.13333333333333333,clinical
+DSS,specific,HER2-enriched,Clinical,3-gene_classifier_subtype_HER2+,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,3-gene_classifier_subtype_infrequent_sklearn,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,cancer_type_detailed_Breast Invasive Ductal Carcinoma,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,cancer_type_detailed_infrequent_sklearn,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,er_status_measured_by_ihc_Negative,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,er_status_measured_by_ihc_Positve,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,her2_status_Negative,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,her2_status_Positive,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,her2_status_measured_by_snp6_GAIN,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,inferred_menopausal_state_Post,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,inferred_menopausal_state_Pre,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,integrative_cluster_1,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,integrative_cluster_4ER-,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,pr_status_Negative,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,pr_status_Positive,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,radio_therapy_0,1,15,0.06666666666666667,clinical
+DSS,specific,HER2-enriched,Clinical,radio_therapy_1,1,15,0.06666666666666667,clinical
+DSS,specific,LumA,Clin+Genes,diras3,15,15,1.0,gene
+DSS,specific,LumA,Clin+Genes,e2f7,15,15,1.0,gene
+DSS,specific,LumA,Clin+Genes,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,specific,LumA,Clin+Genes,pms2,15,15,1.0,gene
+DSS,specific,LumA,Clin+Genes,tumor_size,15,15,1.0,clinical
+DSS,specific,LumA,Clin+Genes,age_at_diagnosis,14,15,0.9333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,aurka,14,15,0.9333333333333333,gene
+DSS,specific,LumA,Clin+Genes,stat5a,14,15,0.9333333333333333,gene
+DSS,specific,LumA,Clin+Genes,type_of_breast_surgery_BREAST CONSERVING,14,15,0.9333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,type_of_breast_surgery_MASTECTOMY,14,15,0.9333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,neoplasm_histologic_grade,13,15,0.8666666666666667,clinical
+DSS,specific,LumA,Clin+Genes,radio_therapy_0,13,15,0.8666666666666667,clinical
+DSS,specific,LumA,Clin+Genes,radio_therapy_1,13,15,0.8666666666666667,clinical
+DSS,specific,LumA,Clin+Genes,stat5b,13,15,0.8666666666666667,gene
+DSS,specific,LumA,Clin+Genes,tbx3,13,15,0.8666666666666667,gene
+DSS,specific,LumA,Clin+Genes,integrative_cluster_3,12,15,0.8,clinical
+DSS,specific,LumA,Clin+Genes,pr_status_Negative,12,15,0.8,clinical
+DSS,specific,LumA,Clin+Genes,pr_status_Positive,12,15,0.8,clinical
+DSS,specific,LumA,Clin+Genes,smad6,12,15,0.8,gene
+DSS,specific,LumA,Clin+Genes,cyp3a4,11,15,0.7333333333333333,gene
+DSS,specific,LumA,Clin+Genes,wwox,11,15,0.7333333333333333,gene
+DSS,specific,LumA,Clin+Genes,gsk3b,10,15,0.6666666666666666,gene
+DSS,specific,LumA,Clin+Genes,casp10,9,15,0.6,gene
+DSS,specific,LumA,Clin+Genes,col22a1,9,15,0.6,gene
+DSS,specific,LumA,Clin+Genes,nottingham_prognostic_index,8,15,0.5333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,apaf1,7,15,0.4666666666666667,gene
+DSS,specific,LumA,Clin+Genes,ctnna1,7,15,0.4666666666666667,gene
+DSS,specific,LumA,Clin+Genes,cxcr1,7,15,0.4666666666666667,gene
+DSS,specific,LumA,Clin+Genes,hsd17b8,7,15,0.4666666666666667,gene
+DSS,specific,LumA,Clin+Genes,mapt,7,15,0.4666666666666667,gene
+DSS,specific,LumA,Clin+Genes,bcl2,6,15,0.4,gene
+DSS,specific,LumA,Clin+Genes,e2f2,6,15,0.4,gene
+DSS,specific,LumA,Clin+Genes,primary_tumor_laterality_Left,6,15,0.4,clinical
+DSS,specific,LumA,Clin+Genes,primary_tumor_laterality_Right,6,15,0.4,clinical
+DSS,specific,LumA,Clin+Genes,rbl1,6,15,0.4,gene
+DSS,specific,LumA,Clin+Genes,smad4,6,15,0.4,gene
+DSS,specific,LumA,Clin+Genes,3-gene_classifier_subtype_ER+/HER2- High Prolif,5,15,0.3333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,ccnb1,5,15,0.3333333333333333,gene
+DSS,specific,LumA,Clin+Genes,ccne1,5,15,0.3333333333333333,gene
+DSS,specific,LumA,Clin+Genes,cdk1,5,15,0.3333333333333333,gene
+DSS,specific,LumA,Clin+Genes,integrative_cluster_2,5,15,0.3333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,integrative_cluster_8,5,15,0.3333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,tumor_stage,5,15,0.3333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,3-gene_classifier_subtype_ER+/HER2- Low Prolif,4,15,0.26666666666666666,clinical
+DSS,specific,LumA,Clin+Genes,chemotherapy_0,4,15,0.26666666666666666,clinical
+DSS,specific,LumA,Clin+Genes,chemotherapy_1,4,15,0.26666666666666666,clinical
+DSS,specific,LumA,Clin+Genes,foxo3,4,15,0.26666666666666666,gene
+DSS,specific,LumA,Clin+Genes,her2_status_measured_by_snp6_GAIN,4,15,0.26666666666666666,clinical
+DSS,specific,LumA,Clin+Genes,her2_status_measured_by_snp6_NEUTRAL,4,15,0.26666666666666666,clinical
+DSS,specific,LumA,Clin+Genes,kras,4,15,0.26666666666666666,gene
+DSS,specific,LumA,Clin+Genes,lfng,4,15,0.26666666666666666,gene
+DSS,specific,LumA,Clin+Genes,mutation_count,4,15,0.26666666666666666,clinical
+DSS,specific,LumA,Clin+Genes,cancer_type_detailed_Breast Mixed Ductal and Lobular Carcinoma,3,15,0.2,clinical
+DSS,specific,LumA,Clin+Genes,cdc25a,3,15,0.2,gene
+DSS,specific,LumA,Clin+Genes,ctcf,3,15,0.2,gene
+DSS,specific,LumA,Clin+Genes,e2f3,3,15,0.2,gene
+DSS,specific,LumA,Clin+Genes,er_status_measured_by_ihc_Negative,3,15,0.2,clinical
+DSS,specific,LumA,Clin+Genes,er_status_measured_by_ihc_Positve,3,15,0.2,clinical
+DSS,specific,LumA,Clin+Genes,integrative_cluster_7,3,15,0.2,clinical
+DSS,specific,LumA,Clin+Genes,mmp15,3,15,0.2,gene
+DSS,specific,LumA,Clin+Genes,mmp21,3,15,0.2,gene
+DSS,specific,LumA,Clin+Genes,mmp26,3,15,0.2,gene
+DSS,specific,LumA,Clin+Genes,notch3,3,15,0.2,gene
+DSS,specific,LumA,Clin+Genes,psenen,3,15,0.2,gene
+DSS,specific,LumA,Clin+Genes,rpgr,3,15,0.2,gene
+DSS,specific,LumA,Clin+Genes,taf4b,3,15,0.2,gene
+DSS,specific,LumA,Clin+Genes,tubb4b,3,15,0.2,gene
+DSS,specific,LumA,Clin+Genes,cellularity_High,2,15,0.13333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,cellularity_Moderate,2,15,0.13333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,cir1,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,dll3,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,ep300,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,erbb3,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,fancd2,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,fbxw7,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,hes6,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,hormone_therapy_0,2,15,0.13333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,hormone_therapy_1,2,15,0.13333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,inferred_menopausal_state_Post,2,15,0.13333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,inferred_menopausal_state_Pre,2,15,0.13333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,integrative_cluster_6,2,15,0.13333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,integrative_cluster_9,2,15,0.13333333333333333,clinical
+DSS,specific,LumA,Clin+Genes,map3k13,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,mmp11,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,ncoa2,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,ncoa3,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,npnt,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,rps6,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,rps6ka2,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,ryr2,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,st7,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,stat2,2,15,0.13333333333333333,gene
+DSS,specific,LumA,Clin+Genes,3-gene_classifier_subtype_HER2+,1,15,0.06666666666666667,clinical
+DSS,specific,LumA,Clin+Genes,acvr1c,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,agmo,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,akt1,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,asxl2,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,bard1,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,bche,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,cancer_type_detailed_Breast Invasive Lobular Carcinoma,1,15,0.06666666666666667,clinical
+DSS,specific,LumA,Clin+Genes,casp3,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,cdkn1b,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,cellularity_Low,1,15,0.06666666666666667,clinical
+DSS,specific,LumA,Clin+Genes,cyp11a1,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,e2f8,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,fas,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,gdf11,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,her2_status_measured_by_snp6_LOSS,1,15,0.06666666666666667,clinical
+DSS,specific,LumA,Clin+Genes,heyl,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,hsd17b12,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,integrative_cluster_4ER+,1,15,0.06666666666666667,clinical
+DSS,specific,LumA,Clin+Genes,l1cam,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,map2k2,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,mecom,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,mlh1,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,mmp10,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,mmp9,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,notch2,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,ptk2,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,rassf1,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,rfng,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,smarcc2,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,spry2,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,src,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clin+Genes,stat1,1,15,0.06666666666666667,gene
+DSS,specific,LumA,Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,specific,LumA,Clinical,neoplasm_histologic_grade,15,15,1.0,clinical
+DSS,specific,LumA,Clinical,tumor_size,15,15,1.0,clinical
+DSS,specific,LumA,Clinical,age_at_diagnosis,14,15,0.9333333333333333,clinical
+DSS,specific,LumA,Clinical,3-gene_classifier_subtype_ER+/HER2- Low Prolif,13,15,0.8666666666666667,clinical
+DSS,specific,LumA,Clinical,radio_therapy_0,13,15,0.8666666666666667,clinical
+DSS,specific,LumA,Clinical,radio_therapy_1,13,15,0.8666666666666667,clinical
+DSS,specific,LumA,Clinical,integrative_cluster_3,12,15,0.8,clinical
+DSS,specific,LumA,Clinical,her2_status_measured_by_snp6_GAIN,11,15,0.7333333333333333,clinical
+DSS,specific,LumA,Clinical,pr_status_Negative,11,15,0.7333333333333333,clinical
+DSS,specific,LumA,Clinical,pr_status_Positive,11,15,0.7333333333333333,clinical
+DSS,specific,LumA,Clinical,primary_tumor_laterality_Left,11,15,0.7333333333333333,clinical
+DSS,specific,LumA,Clinical,primary_tumor_laterality_Right,11,15,0.7333333333333333,clinical
+DSS,specific,LumA,Clinical,cancer_type_detailed_Breast Mixed Ductal and Lobular Carcinoma,10,15,0.6666666666666666,clinical
+DSS,specific,LumA,Clinical,chemotherapy_0,10,15,0.6666666666666666,clinical
+DSS,specific,LumA,Clinical,chemotherapy_1,10,15,0.6666666666666666,clinical
+DSS,specific,LumA,Clinical,cancer_type_detailed_Breast Invasive Lobular Carcinoma,9,15,0.6,clinical
+DSS,specific,LumA,Clinical,integrative_cluster_2,9,15,0.6,clinical
+DSS,specific,LumA,Clinical,mutation_count,9,15,0.6,clinical
+DSS,specific,LumA,Clinical,nottingham_prognostic_index,9,15,0.6,clinical
+DSS,specific,LumA,Clinical,type_of_breast_surgery_BREAST CONSERVING,9,15,0.6,clinical
+DSS,specific,LumA,Clinical,type_of_breast_surgery_MASTECTOMY,9,15,0.6,clinical
+DSS,specific,LumA,Clinical,cellularity_High,8,15,0.5333333333333333,clinical
+DSS,specific,LumA,Clinical,her2_status_measured_by_snp6_NEUTRAL,8,15,0.5333333333333333,clinical
+DSS,specific,LumA,Clinical,3-gene_classifier_subtype_ER+/HER2- High Prolif,7,15,0.4666666666666667,clinical
+DSS,specific,LumA,Clinical,er_status_measured_by_ihc_Positve,7,15,0.4666666666666667,clinical
+DSS,specific,LumA,Clinical,integrative_cluster_4ER+,7,15,0.4666666666666667,clinical
+DSS,specific,LumA,Clinical,integrative_cluster_8,7,15,0.4666666666666667,clinical
+DSS,specific,LumA,Clinical,integrative_cluster_9,7,15,0.4666666666666667,clinical
+DSS,specific,LumA,Clinical,tumor_stage,7,15,0.4666666666666667,clinical
+DSS,specific,LumA,Clinical,er_status_measured_by_ihc_Negative,5,15,0.3333333333333333,clinical
+DSS,specific,LumA,Clinical,cancer_type_detailed_Breast Invasive Ductal Carcinoma,4,15,0.26666666666666666,clinical
+DSS,specific,LumA,Clinical,hormone_therapy_0,4,15,0.26666666666666666,clinical
+DSS,specific,LumA,Clinical,hormone_therapy_1,4,15,0.26666666666666666,clinical
+DSS,specific,LumA,Clinical,inferred_menopausal_state_Post,4,15,0.26666666666666666,clinical
+DSS,specific,LumA,Clinical,inferred_menopausal_state_Pre,4,15,0.26666666666666666,clinical
+DSS,specific,LumA,Clinical,cancer_type_detailed_infrequent_sklearn,3,15,0.2,clinical
+DSS,specific,LumA,Clinical,integrative_cluster_7,3,15,0.2,clinical
+DSS,specific,LumA,Clinical,cellularity_Moderate,2,15,0.13333333333333333,clinical
+DSS,specific,LumA,Clinical,er_status_measured_by_ihc_infrequent_sklearn,2,15,0.13333333333333333,clinical
+DSS,specific,LumA,Clinical,integrative_cluster_6,2,15,0.13333333333333333,clinical
+DSS,specific,LumA,Clinical,3-gene_classifier_subtype_HER2+,1,15,0.06666666666666667,clinical
+DSS,specific,LumA,Clinical,cellularity_Low,1,15,0.06666666666666667,clinical
+DSS,specific,LumA,Clinical,er_status_Positive,1,15,0.06666666666666667,clinical
+DSS,specific,LumA,Clinical,er_status_infrequent_sklearn,1,15,0.06666666666666667,clinical
+DSS,specific,LumA,Clinical,integrative_cluster_5,1,15,0.06666666666666667,clinical
+DSS,specific,LumB,Clin+Genes,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,specific,LumB,Clin+Genes,nottingham_prognostic_index,15,15,1.0,clinical
+DSS,specific,LumB,Clin+Genes,tumor_size,15,15,1.0,clinical
+DSS,specific,LumB,Clin+Genes,nr2f1,14,15,0.9333333333333333,gene
+DSS,specific,LumB,Clin+Genes,tumor_stage,14,15,0.9333333333333333,clinical
+DSS,specific,LumB,Clin+Genes,mecom,13,15,0.8666666666666667,gene
+DSS,specific,LumB,Clin+Genes,pdgfrb,13,15,0.8666666666666667,gene
+DSS,specific,LumB,Clin+Genes,pms2,13,15,0.8666666666666667,gene
+DSS,specific,LumB,Clin+Genes,acvr1b,12,15,0.8,gene
+DSS,specific,LumB,Clin+Genes,aurka,12,15,0.8,gene
+DSS,specific,LumB,Clin+Genes,flt3,12,15,0.8,gene
+DSS,specific,LumB,Clin+Genes,epcam,10,15,0.6666666666666666,gene
+DSS,specific,LumB,Clin+Genes,gsk3b,10,15,0.6666666666666666,gene
+DSS,specific,LumB,Clin+Genes,stat2,10,15,0.6666666666666666,gene
+DSS,specific,LumB,Clin+Genes,dph1,8,15,0.5333333333333333,gene
+DSS,specific,LumB,Clin+Genes,foxo3,8,15,0.5333333333333333,gene
+DSS,specific,LumB,Clin+Genes,igf1r,8,15,0.5333333333333333,gene
+DSS,specific,LumB,Clin+Genes,kras,8,15,0.5333333333333333,gene
+DSS,specific,LumB,Clin+Genes,akap9,7,15,0.4666666666666667,gene
+DSS,specific,LumB,Clin+Genes,bard1,7,15,0.4666666666666667,gene
+DSS,specific,LumB,Clin+Genes,cyb5a,7,15,0.4666666666666667,gene
+DSS,specific,LumB,Clin+Genes,notch3,7,15,0.4666666666666667,gene
+DSS,specific,LumB,Clin+Genes,peg3,7,15,0.4666666666666667,gene
+DSS,specific,LumB,Clin+Genes,age_at_diagnosis,5,15,0.3333333333333333,clinical
+DSS,specific,LumB,Clin+Genes,casp6,5,15,0.3333333333333333,gene
+DSS,specific,LumB,Clin+Genes,kdm5a,5,15,0.3333333333333333,gene
+DSS,specific,LumB,Clin+Genes,kmt2d,5,15,0.3333333333333333,gene
+DSS,specific,LumB,Clin+Genes,mdm2,5,15,0.3333333333333333,gene
+DSS,specific,LumB,Clin+Genes,neoplasm_histologic_grade,5,15,0.3333333333333333,clinical
+DSS,specific,LumB,Clin+Genes,rpgr,5,15,0.3333333333333333,gene
+DSS,specific,LumB,Clin+Genes,bmpr1b,4,15,0.26666666666666666,gene
+DSS,specific,LumB,Clin+Genes,hey2,4,15,0.26666666666666666,gene
+DSS,specific,LumB,Clin+Genes,large1,4,15,0.26666666666666666,gene
+DSS,specific,LumB,Clin+Genes,map4,4,15,0.26666666666666666,gene
+DSS,specific,LumB,Clin+Genes,setdb1,4,15,0.26666666666666666,gene
+DSS,specific,LumB,Clin+Genes,adgra2,3,15,0.2,gene
+DSS,specific,LumB,Clin+Genes,gdf11,3,15,0.2,gene
+DSS,specific,LumB,Clin+Genes,mapt,3,15,0.2,gene
+DSS,specific,LumB,Clin+Genes,smarcd1,3,15,0.2,gene
+DSS,specific,LumB,Clin+Genes,stat5a,3,15,0.2,gene
+DSS,specific,LumB,Clin+Genes,bmf,2,15,0.13333333333333333,gene
+DSS,specific,LumB,Clin+Genes,col22a1,2,15,0.13333333333333333,gene
+DSS,specific,LumB,Clin+Genes,hsd17b7,2,15,0.13333333333333333,gene
+DSS,specific,LumB,Clin+Genes,jag2,2,15,0.13333333333333333,gene
+DSS,specific,LumB,Clin+Genes,mlh1,2,15,0.13333333333333333,gene
+DSS,specific,LumB,Clin+Genes,mmp3,2,15,0.13333333333333333,gene
+DSS,specific,LumB,Clin+Genes,mtor,2,15,0.13333333333333333,gene
+DSS,specific,LumB,Clin+Genes,rheb,2,15,0.13333333333333333,gene
+DSS,specific,LumB,Clin+Genes,rps6kb2,2,15,0.13333333333333333,gene
+DSS,specific,LumB,Clin+Genes,vegfa,2,15,0.13333333333333333,gene
+DSS,specific,LumB,Clin+Genes,acvr1c,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,acvr2b,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,akt1,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,arrdc1,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,bmp15,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,brca1,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,casp9,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,cdk6,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,dll3,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,dtx4,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,e2f8,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,fgf2,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,gpr32,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,hdac9,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,heyl,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,hormone_therapy_0,1,15,0.06666666666666667,clinical
+DSS,specific,LumB,Clin+Genes,hormone_therapy_1,1,15,0.06666666666666667,clinical
+DSS,specific,LumB,Clin+Genes,integrative_cluster_5,1,15,0.06666666666666667,clinical
+DSS,specific,LumB,Clin+Genes,map2k4,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,map3k4,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,mmp11,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,nek1,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,pik3r2,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,primary_tumor_laterality_Left,1,15,0.06666666666666667,clinical
+DSS,specific,LumB,Clin+Genes,primary_tumor_laterality_Right,1,15,0.06666666666666667,clinical
+DSS,specific,LumB,Clin+Genes,raf1,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,rictor,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,smad4,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,stat1,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,tubb4b,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,twist1,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clin+Genes,utrn,1,15,0.06666666666666667,gene
+DSS,specific,LumB,Clinical,nottingham_prognostic_index,15,15,1.0,clinical
+DSS,specific,LumB,Clinical,tumor_size,15,15,1.0,clinical
+DSS,specific,LumB,Clinical,tumor_stage,15,15,1.0,clinical
+DSS,specific,LumB,Clinical,lymph_nodes_examined_positive,14,15,0.9333333333333333,clinical
+DSS,specific,LumB,Clinical,age_at_diagnosis,2,15,0.13333333333333333,clinical
+DSS,specific,LumB,Clinical,integrative_cluster_5,2,15,0.13333333333333333,clinical
+DSS,specific,LumB,Clinical,neoplasm_histologic_grade,2,15,0.13333333333333333,clinical
+DSS,specific,LumB,Clinical,mutation_count,1,15,0.06666666666666667,clinical
+DSS,specific,TNBC,Clin+Genes,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,specific,TNBC,Clin+Genes,nottingham_prognostic_index,14,15,0.9333333333333333,clinical
+DSS,specific,TNBC,Clin+Genes,hes1,13,15,0.8666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,e2f6,12,15,0.8,gene
+DSS,specific,TNBC,Clin+Genes,tumor_size,12,15,0.8,clinical
+DSS,specific,TNBC,Clin+Genes,type_of_breast_surgery_BREAST CONSERVING,12,15,0.8,clinical
+DSS,specific,TNBC,Clin+Genes,type_of_breast_surgery_MASTECTOMY,12,15,0.8,clinical
+DSS,specific,TNBC,Clin+Genes,kdm3a,11,15,0.7333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,integrative_cluster_10,10,15,0.6666666666666666,clinical
+DSS,specific,TNBC,Clin+Genes,kdr,10,15,0.6666666666666666,gene
+DSS,specific,TNBC,Clin+Genes,cellularity_Moderate,9,15,0.6,clinical
+DSS,specific,TNBC,Clin+Genes,tumor_stage,9,15,0.6,clinical
+DSS,specific,TNBC,Clin+Genes,abcb1,8,15,0.5333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,dtx3,8,15,0.5333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,dlec1,7,15,0.4666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,dll3,7,15,0.4666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,fancd2,7,15,0.4666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,neoplasm_histologic_grade,7,15,0.4666666666666667,clinical
+DSS,specific,TNBC,Clin+Genes,stat5b,7,15,0.4666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,akt1,6,15,0.4,gene
+DSS,specific,TNBC,Clin+Genes,brca2,6,15,0.4,gene
+DSS,specific,TNBC,Clin+Genes,ccnd2,6,15,0.4,gene
+DSS,specific,TNBC,Clin+Genes,flt3,6,15,0.4,gene
+DSS,specific,TNBC,Clin+Genes,mmp1,6,15,0.4,gene
+DSS,specific,TNBC,Clin+Genes,mutation_count,6,15,0.4,clinical
+DSS,specific,TNBC,Clin+Genes,rbpj,6,15,0.4,gene
+DSS,specific,TNBC,Clin+Genes,smarcb1,6,15,0.4,gene
+DSS,specific,TNBC,Clin+Genes,cyp17a1,5,15,0.3333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,hsd17b14,5,15,0.3333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,pde4dip,5,15,0.3333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,prkcz,5,15,0.3333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,radio_therapy_0,5,15,0.3333333333333333,clinical
+DSS,specific,TNBC,Clin+Genes,radio_therapy_1,5,15,0.3333333333333333,clinical
+DSS,specific,TNBC,Clin+Genes,shbg,5,15,0.3333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,cellularity_High,4,15,0.26666666666666666,clinical
+DSS,specific,TNBC,Clin+Genes,integrative_cluster_4ER-,4,15,0.26666666666666666,clinical
+DSS,specific,TNBC,Clin+Genes,sptbn1,4,15,0.26666666666666666,gene
+DSS,specific,TNBC,Clin+Genes,ugt2b17,4,15,0.26666666666666666,gene
+DSS,specific,TNBC,Clin+Genes,apc,3,15,0.2,gene
+DSS,specific,TNBC,Clin+Genes,ctnna3,3,15,0.2,gene
+DSS,specific,TNBC,Clin+Genes,fanca,3,15,0.2,gene
+DSS,specific,TNBC,Clin+Genes,fbxw7,3,15,0.2,gene
+DSS,specific,TNBC,Clin+Genes,hsd17b7,3,15,0.2,gene
+DSS,specific,TNBC,Clin+Genes,jak2,3,15,0.2,gene
+DSS,specific,TNBC,Clin+Genes,maml3,3,15,0.2,gene
+DSS,specific,TNBC,Clin+Genes,map3k4,3,15,0.2,gene
+DSS,specific,TNBC,Clin+Genes,map4,3,15,0.2,gene
+DSS,specific,TNBC,Clin+Genes,serpini1,3,15,0.2,gene
+DSS,specific,TNBC,Clin+Genes,age_at_diagnosis,2,15,0.13333333333333333,clinical
+DSS,specific,TNBC,Clin+Genes,ahnak2,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,akt3,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,arid5b,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,aurka,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,bcl2,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,cyp11a1,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,foxo1,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,gsk3b,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,hsd17b12,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,hsd17b4,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,itgb3,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,mapk7,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,mecom,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,mmp21,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,msh6,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,ncor1,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,nr3c1,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,palb2,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,pam50_+_claudin-low_subtype_Basal,2,15,0.13333333333333333,clinical
+DSS,specific,TNBC,Clin+Genes,primary_tumor_laterality_Left,2,15,0.13333333333333333,clinical
+DSS,specific,TNBC,Clin+Genes,primary_tumor_laterality_Right,2,15,0.13333333333333333,clinical
+DSS,specific,TNBC,Clin+Genes,psenen,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,rbpjl,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,setd1a,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,stat3,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,wfdc2,2,15,0.13333333333333333,gene
+DSS,specific,TNBC,Clin+Genes,arid1b,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,bcas3,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,bmp10,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,bmp15,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,ccnd3,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,cellularity_Low,1,15,0.06666666666666667,clinical
+DSS,specific,TNBC,Clin+Genes,chemotherapy_0,1,15,0.06666666666666667,clinical
+DSS,specific,TNBC,Clin+Genes,chemotherapy_1,1,15,0.06666666666666667,clinical
+DSS,specific,TNBC,Clin+Genes,col22a1,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,csf1r,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,cul1,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,cyp21a2,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,dnah11,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,epcam,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,gpr32,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,her2_status_measured_by_snp6_GAIN,1,15,0.06666666666666667,clinical
+DSS,specific,TNBC,Clin+Genes,her2_status_measured_by_snp6_NEUTRAL,1,15,0.06666666666666667,clinical
+DSS,specific,TNBC,Clin+Genes,hormone_therapy_0,1,15,0.06666666666666667,clinical
+DSS,specific,TNBC,Clin+Genes,hormone_therapy_1,1,15,0.06666666666666667,clinical
+DSS,specific,TNBC,Clin+Genes,hsd3b7,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,inhba,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,integrative_cluster_9,1,15,0.06666666666666667,clinical
+DSS,specific,TNBC,Clin+Genes,magea8,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,mapk3,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,mmp23b,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,nek1,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,nf2,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,nfkb1,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,pam50_+_claudin-low_subtype_Her2,1,15,0.06666666666666667,clinical
+DSS,specific,TNBC,Clin+Genes,ppp2cb,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,ptpn22,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,rbl2,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,siah1,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,slco1b3,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,smad7,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,smad9,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,stat1,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,tgfbr2,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clin+Genes,tp53,1,15,0.06666666666666667,gene
+DSS,specific,TNBC,Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+DSS,specific,TNBC,Clinical,nottingham_prognostic_index,14,15,0.9333333333333333,clinical
+DSS,specific,TNBC,Clinical,tumor_size,10,15,0.6666666666666666,clinical
+DSS,specific,TNBC,Clinical,tumor_stage,7,15,0.4666666666666667,clinical
+DSS,specific,TNBC,Clinical,age_at_diagnosis,2,15,0.13333333333333333,clinical
+DSS,specific,TNBC,Clinical,cellularity_Moderate,2,15,0.13333333333333333,clinical
+DSS,specific,TNBC,Clinical,neoplasm_histologic_grade,2,15,0.13333333333333333,clinical
+DSS,specific,TNBC,Clinical,pam50_+_claudin-low_subtype_claudin-low,2,15,0.13333333333333333,clinical
+DSS,specific,TNBC,Clinical,type_of_breast_surgery_BREAST CONSERVING,2,15,0.13333333333333333,clinical
+DSS,specific,TNBC,Clinical,type_of_breast_surgery_MASTECTOMY,2,15,0.13333333333333333,clinical
+DSS,specific,TNBC,Clinical,cellularity_High,1,15,0.06666666666666667,clinical
+DSS,specific,TNBC,Clinical,integrative_cluster_10,1,15,0.06666666666666667,clinical
+DSS,specific,TNBC,Clinical,pam50_+_claudin-low_subtype_Basal,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes,age_at_diagnosis,15,15,1.0,clinical
+OS,global,All,Clin+Genes,flt3,15,15,1.0,gene
+OS,global,All,Clin+Genes,gsk3b,15,15,1.0,gene
+OS,global,All,Clin+Genes,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,global,All,Clin+Genes,nottingham_prognostic_index,15,15,1.0,clinical
+OS,global,All,Clin+Genes,stat5a,15,15,1.0,gene
+OS,global,All,Clin+Genes,tumor_size,15,15,1.0,clinical
+OS,global,All,Clin+Genes,tumor_stage,15,15,1.0,clinical
+OS,global,All,Clin+Genes,vegfa,15,15,1.0,gene
+OS,global,All,Clin+Genes,aurka,13,15,0.8666666666666667,gene
+OS,global,All,Clin+Genes,bcl2,13,15,0.8666666666666667,gene
+OS,global,All,Clin+Genes,type_of_breast_surgery_BREAST CONSERVING,13,15,0.8666666666666667,clinical
+OS,global,All,Clin+Genes,type_of_breast_surgery_MASTECTOMY,13,15,0.8666666666666667,clinical
+OS,global,All,Clin+Genes,igf1r,12,15,0.8,gene
+OS,global,All,Clin+Genes,radio_therapy_0,12,15,0.8,clinical
+OS,global,All,Clin+Genes,radio_therapy_1,12,15,0.8,clinical
+OS,global,All,Clin+Genes,ccnd2,10,15,0.6666666666666666,gene
+OS,global,All,Clin+Genes,cdkn2c,10,15,0.6666666666666666,gene
+OS,global,All,Clin+Genes,fancd2,10,15,0.6666666666666666,gene
+OS,global,All,Clin+Genes,ahnak,9,15,0.6,gene
+OS,global,All,Clin+Genes,cdc25a,9,15,0.6,gene
+OS,global,All,Clin+Genes,e2f7,9,15,0.6,gene
+OS,global,All,Clin+Genes,gata3,9,15,0.6,gene
+OS,global,All,Clin+Genes,integrative_cluster_5,9,15,0.6,clinical
+OS,global,All,Clin+Genes,nfkb1,9,15,0.6,gene
+OS,global,All,Clin+Genes,primary_tumor_laterality_Left,9,15,0.6,clinical
+OS,global,All,Clin+Genes,primary_tumor_laterality_Right,9,15,0.6,clinical
+OS,global,All,Clin+Genes,e2f3,8,15,0.5333333333333333,gene
+OS,global,All,Clin+Genes,igf1,8,15,0.5333333333333333,gene
+OS,global,All,Clin+Genes,inferred_menopausal_state_Post,8,15,0.5333333333333333,clinical
+OS,global,All,Clin+Genes,inferred_menopausal_state_Pre,8,15,0.5333333333333333,clinical
+OS,global,All,Clin+Genes,integrative_cluster_10,8,15,0.5333333333333333,clinical
+OS,global,All,Clin+Genes,lama2,8,15,0.5333333333333333,gene
+OS,global,All,Clin+Genes,mmp15,8,15,0.5333333333333333,gene
+OS,global,All,Clin+Genes,slc19a1,8,15,0.5333333333333333,gene
+OS,global,All,Clin+Genes,cir1,7,15,0.4666666666666667,gene
+OS,global,All,Clin+Genes,cyp11a1,7,15,0.4666666666666667,gene
+OS,global,All,Clin+Genes,map2k4,7,15,0.4666666666666667,gene
+OS,global,All,Clin+Genes,mapt,7,15,0.4666666666666667,gene
+OS,global,All,Clin+Genes,ncoa3,7,15,0.4666666666666667,gene
+OS,global,All,Clin+Genes,nr3c1,7,15,0.4666666666666667,gene
+OS,global,All,Clin+Genes,pam50_+_claudin-low_subtype_LumA,7,15,0.4666666666666667,clinical
+OS,global,All,Clin+Genes,prkcq,7,15,0.4666666666666667,gene
+OS,global,All,Clin+Genes,3-gene_classifier_subtype_ER-/HER2-,6,15,0.4,clinical
+OS,global,All,Clin+Genes,ccnb1,6,15,0.4,gene
+OS,global,All,Clin+Genes,cellularity_High,6,15,0.4,clinical
+OS,global,All,Clin+Genes,chemotherapy_0,6,15,0.4,clinical
+OS,global,All,Clin+Genes,chemotherapy_1,6,15,0.4,clinical
+OS,global,All,Clin+Genes,diras3,6,15,0.4,gene
+OS,global,All,Clin+Genes,e2f2,6,15,0.4,gene
+OS,global,All,Clin+Genes,eif4ebp1,6,15,0.4,gene
+OS,global,All,Clin+Genes,her2_status_measured_by_snp6_GAIN,6,15,0.4,clinical
+OS,global,All,Clin+Genes,mutation_count,6,15,0.4,clinical
+OS,global,All,Clin+Genes,pr_status_Negative,6,15,0.4,clinical
+OS,global,All,Clin+Genes,pr_status_Positive,6,15,0.4,clinical
+OS,global,All,Clin+Genes,srd5a1,6,15,0.4,gene
+OS,global,All,Clin+Genes,ccne1,5,15,0.3333333333333333,gene
+OS,global,All,Clin+Genes,hormone_therapy_0,5,15,0.3333333333333333,clinical
+OS,global,All,Clin+Genes,hormone_therapy_1,5,15,0.3333333333333333,clinical
+OS,global,All,Clin+Genes,lifr,5,15,0.3333333333333333,gene
+OS,global,All,Clin+Genes,pam50_+_claudin-low_subtype_Normal,5,15,0.3333333333333333,clinical
+OS,global,All,Clin+Genes,rad51,5,15,0.3333333333333333,gene
+OS,global,All,Clin+Genes,stat5b,5,15,0.3333333333333333,gene
+OS,global,All,Clin+Genes,tgfbr3,5,15,0.3333333333333333,gene
+OS,global,All,Clin+Genes,aph1b,4,15,0.26666666666666666,gene
+OS,global,All,Clin+Genes,cdk2,4,15,0.26666666666666666,gene
+OS,global,All,Clin+Genes,e2f4,4,15,0.26666666666666666,gene
+OS,global,All,Clin+Genes,kras,4,15,0.26666666666666666,gene
+OS,global,All,Clin+Genes,neoplasm_histologic_grade,4,15,0.26666666666666666,clinical
+OS,global,All,Clin+Genes,pten,4,15,0.26666666666666666,gene
+OS,global,All,Clin+Genes,tubb4b,4,15,0.26666666666666666,gene
+OS,global,All,Clin+Genes,3-gene_classifier_subtype_ER+/HER2- Low Prolif,3,15,0.2,clinical
+OS,global,All,Clin+Genes,bard1,3,15,0.2,gene
+OS,global,All,Clin+Genes,cancer_type_detailed_Breast Invasive Ductal Carcinoma,3,15,0.2,clinical
+OS,global,All,Clin+Genes,cellularity_Low,3,15,0.2,clinical
+OS,global,All,Clin+Genes,chek1,3,15,0.2,gene
+OS,global,All,Clin+Genes,e2f8,3,15,0.2,gene
+OS,global,All,Clin+Genes,her2_status_measured_by_snp6_NEUTRAL,3,15,0.2,clinical
+OS,global,All,Clin+Genes,integrative_cluster_7,3,15,0.2,clinical
+OS,global,All,Clin+Genes,map4,3,15,0.2,gene
+OS,global,All,Clin+Genes,rps6kb2,3,15,0.2,gene
+OS,global,All,Clin+Genes,smad4,3,15,0.2,gene
+OS,global,All,Clin+Genes,src,3,15,0.2,gene
+OS,global,All,Clin+Genes,tgfb3,3,15,0.2,gene
+OS,global,All,Clin+Genes,3-gene_classifier_subtype_ER+/HER2- High Prolif,2,15,0.13333333333333333,clinical
+OS,global,All,Clin+Genes,abcb1,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes,cancer_type_detailed_Breast Mixed Ductal and Lobular Carcinoma,2,15,0.13333333333333333,clinical
+OS,global,All,Clin+Genes,cdk1,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes,dtx2,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes,gdf11,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes,jak2,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes,magea8,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes,map2,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes,map3k1,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes,nek1,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes,pik3r1,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes,raf1,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes,rps6,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes,tbx3,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes,wwox,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes,akt1,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes,cacna2d3,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes,ctcf,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes,fn1,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes,hsd17b11,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes,integrative_cluster_1,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes,integrative_cluster_2,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes,integrative_cluster_3,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes,integrative_cluster_4ER+,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes,integrative_cluster_6,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes,kit,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes,nrip1,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes,pam50_+_claudin-low_subtype_Her2,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes,pam50_+_claudin-low_subtype_LumB,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes,pdgfb,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes,ppp2r2a,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes,rbl1,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes,rdh5,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes,smarcb1,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes,tubb4a,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes,ugt2b15,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,age_at_diagnosis,15,15,1.0,clinical
+OS,global,All,Clin+Genes+Mut,flt3,15,15,1.0,gene
+OS,global,All,Clin+Genes+Mut,gsk3b,15,15,1.0,gene
+OS,global,All,Clin+Genes+Mut,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,global,All,Clin+Genes+Mut,nottingham_prognostic_index,15,15,1.0,clinical
+OS,global,All,Clin+Genes+Mut,stat5a,15,15,1.0,gene
+OS,global,All,Clin+Genes+Mut,tumor_size,15,15,1.0,clinical
+OS,global,All,Clin+Genes+Mut,tumor_stage,15,15,1.0,clinical
+OS,global,All,Clin+Genes+Mut,vegfa,15,15,1.0,gene
+OS,global,All,Clin+Genes+Mut,bcl2,14,15,0.9333333333333333,gene
+OS,global,All,Clin+Genes+Mut,type_of_breast_surgery_BREAST CONSERVING,13,15,0.8666666666666667,clinical
+OS,global,All,Clin+Genes+Mut,type_of_breast_surgery_MASTECTOMY,13,15,0.8666666666666667,clinical
+OS,global,All,Clin+Genes+Mut,aurka,12,15,0.8,gene
+OS,global,All,Clin+Genes+Mut,igf1r,11,15,0.7333333333333333,gene
+OS,global,All,Clin+Genes+Mut,radio_therapy_0,11,15,0.7333333333333333,clinical
+OS,global,All,Clin+Genes+Mut,radio_therapy_1,11,15,0.7333333333333333,clinical
+OS,global,All,Clin+Genes+Mut,ccnd2,10,15,0.6666666666666666,gene
+OS,global,All,Clin+Genes+Mut,cdkn2c,10,15,0.6666666666666666,gene
+OS,global,All,Clin+Genes+Mut,fancd2,10,15,0.6666666666666666,gene
+OS,global,All,Clin+Genes+Mut,e2f7,9,15,0.6,gene
+OS,global,All,Clin+Genes+Mut,nfkb1,9,15,0.6,gene
+OS,global,All,Clin+Genes+Mut,ahnak,8,15,0.5333333333333333,gene
+OS,global,All,Clin+Genes+Mut,gata3_mut,8,15,0.5333333333333333,mutation
+OS,global,All,Clin+Genes+Mut,cdc25a,7,15,0.4666666666666667,gene
+OS,global,All,Clin+Genes+Mut,cir1,7,15,0.4666666666666667,gene
+OS,global,All,Clin+Genes+Mut,cyp11a1,7,15,0.4666666666666667,gene
+OS,global,All,Clin+Genes+Mut,diras3,7,15,0.4666666666666667,gene
+OS,global,All,Clin+Genes+Mut,gata3,7,15,0.4666666666666667,gene
+OS,global,All,Clin+Genes+Mut,mapt,7,15,0.4666666666666667,gene
+OS,global,All,Clin+Genes+Mut,pik3ca_mut,7,15,0.4666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,primary_tumor_laterality_Left,7,15,0.4666666666666667,clinical
+OS,global,All,Clin+Genes+Mut,primary_tumor_laterality_Right,7,15,0.4666666666666667,clinical
+OS,global,All,Clin+Genes+Mut,prkcq,7,15,0.4666666666666667,gene
+OS,global,All,Clin+Genes+Mut,igf1,6,15,0.4,gene
+OS,global,All,Clin+Genes+Mut,inferred_menopausal_state_Post,6,15,0.4,clinical
+OS,global,All,Clin+Genes+Mut,inferred_menopausal_state_Pre,6,15,0.4,clinical
+OS,global,All,Clin+Genes+Mut,integrative_cluster_5,6,15,0.4,clinical
+OS,global,All,Clin+Genes+Mut,mmp15,6,15,0.4,gene
+OS,global,All,Clin+Genes+Mut,nr3c1,6,15,0.4,gene
+OS,global,All,Clin+Genes+Mut,slc19a1,6,15,0.4,gene
+OS,global,All,Clin+Genes+Mut,srd5a1,6,15,0.4,gene
+OS,global,All,Clin+Genes+Mut,e2f3,5,15,0.3333333333333333,gene
+OS,global,All,Clin+Genes+Mut,eif4ebp1,5,15,0.3333333333333333,gene
+OS,global,All,Clin+Genes+Mut,her2_status_measured_by_snp6_GAIN,5,15,0.3333333333333333,clinical
+OS,global,All,Clin+Genes+Mut,integrative_cluster_10,5,15,0.3333333333333333,clinical
+OS,global,All,Clin+Genes+Mut,map2k4,5,15,0.3333333333333333,gene
+OS,global,All,Clin+Genes+Mut,ncoa3,5,15,0.3333333333333333,gene
+OS,global,All,Clin+Genes+Mut,ccnb1,4,15,0.26666666666666666,gene
+OS,global,All,Clin+Genes+Mut,cellularity_High,4,15,0.26666666666666666,clinical
+OS,global,All,Clin+Genes+Mut,chemotherapy_0,4,15,0.26666666666666666,clinical
+OS,global,All,Clin+Genes+Mut,chemotherapy_1,4,15,0.26666666666666666,clinical
+OS,global,All,Clin+Genes+Mut,e2f4,4,15,0.26666666666666666,gene
+OS,global,All,Clin+Genes+Mut,kras,4,15,0.26666666666666666,gene
+OS,global,All,Clin+Genes+Mut,lama2,4,15,0.26666666666666666,gene
+OS,global,All,Clin+Genes+Mut,pam50_+_claudin-low_subtype_LumA,4,15,0.26666666666666666,clinical
+OS,global,All,Clin+Genes+Mut,ccne1,3,15,0.2,gene
+OS,global,All,Clin+Genes+Mut,dnah11_mut,3,15,0.2,mutation
+OS,global,All,Clin+Genes+Mut,e2f2,3,15,0.2,gene
+OS,global,All,Clin+Genes+Mut,hormone_therapy_0,3,15,0.2,clinical
+OS,global,All,Clin+Genes+Mut,hormone_therapy_1,3,15,0.2,clinical
+OS,global,All,Clin+Genes+Mut,lama2_mut,3,15,0.2,mutation
+OS,global,All,Clin+Genes+Mut,lifr,3,15,0.2,gene
+OS,global,All,Clin+Genes+Mut,mutation_count,3,15,0.2,clinical
+OS,global,All,Clin+Genes+Mut,pam50_+_claudin-low_subtype_Normal,3,15,0.2,clinical
+OS,global,All,Clin+Genes+Mut,pr_status_Negative,3,15,0.2,clinical
+OS,global,All,Clin+Genes+Mut,pr_status_Positive,3,15,0.2,clinical
+OS,global,All,Clin+Genes+Mut,rad51,3,15,0.2,gene
+OS,global,All,Clin+Genes+Mut,stat5b,3,15,0.2,gene
+OS,global,All,Clin+Genes+Mut,tgfbr3,3,15,0.2,gene
+OS,global,All,Clin+Genes+Mut,tp53_mut,3,15,0.2,mutation
+OS,global,All,Clin+Genes+Mut,3-gene_classifier_subtype_ER+/HER2- High Prolif,2,15,0.13333333333333333,clinical
+OS,global,All,Clin+Genes+Mut,3-gene_classifier_subtype_ER-/HER2-,2,15,0.13333333333333333,clinical
+OS,global,All,Clin+Genes+Mut,bard1,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,cancer_type_detailed_Breast Invasive Ductal Carcinoma,2,15,0.13333333333333333,clinical
+OS,global,All,Clin+Genes+Mut,cbfb_mut,2,15,0.13333333333333333,mutation
+OS,global,All,Clin+Genes+Mut,cdk2,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,chek1,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,e2f8,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,gdf11,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,her2_status_measured_by_snp6_NEUTRAL,2,15,0.13333333333333333,clinical
+OS,global,All,Clin+Genes+Mut,integrative_cluster_7,2,15,0.13333333333333333,clinical
+OS,global,All,Clin+Genes+Mut,jak2,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,magea8,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,map2,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,map3k1,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,ncor2_mut,2,15,0.13333333333333333,mutation
+OS,global,All,Clin+Genes+Mut,nek1,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,neoplasm_histologic_grade,2,15,0.13333333333333333,clinical
+OS,global,All,Clin+Genes+Mut,pik3r1,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,pten,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,raf1,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,smad4,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,src,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,tgfb3,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,tubb4b,2,15,0.13333333333333333,gene
+OS,global,All,Clin+Genes+Mut,3-gene_classifier_subtype_ER+/HER2- Low Prolif,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes+Mut,abcb1,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,ahnak2_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,akap9_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,akt1,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,aph1b,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,cancer_type_detailed_Breast Mixed Ductal and Lobular Carcinoma,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes+Mut,cdh1_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,cellularity_Low,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes+Mut,col12a1_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,ctcf,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,dnah5_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,dtx2,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,ep300_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,er_status_Negative,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes+Mut,er_status_Positive,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes+Mut,fancd2_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,fn1,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,her2_status_Negative,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes+Mut,her2_status_Positive,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes+Mut,integrative_cluster_6,1,15,0.06666666666666667,clinical
+OS,global,All,Clin+Genes+Mut,kit,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,map4,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,muc16_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,pdgfb,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,ppp2r2a,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,ptprd_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,rbl1,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,rdh5,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,rps6,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,rps6kb2,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,runx1_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,shank2_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,smarcb1,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,stab2_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,tbx3,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,tbx3_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,thada_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,thsd7a_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Clin+Genes+Mut,ugt2b15,1,15,0.06666666666666667,gene
+OS,global,All,Clin+Genes+Mut,wwox,1,15,0.06666666666666667,gene
+OS,global,All,Clinical,3-gene_classifier_subtype_ER+/HER2- High Prolif,15,15,1.0,clinical
+OS,global,All,Clinical,age_at_diagnosis,15,15,1.0,clinical
+OS,global,All,Clinical,chemotherapy_0,15,15,1.0,clinical
+OS,global,All,Clinical,chemotherapy_1,15,15,1.0,clinical
+OS,global,All,Clinical,er_status_Negative,15,15,1.0,clinical
+OS,global,All,Clinical,er_status_Positive,15,15,1.0,clinical
+OS,global,All,Clinical,inferred_menopausal_state_Post,15,15,1.0,clinical
+OS,global,All,Clinical,inferred_menopausal_state_Pre,15,15,1.0,clinical
+OS,global,All,Clinical,integrative_cluster_10,15,15,1.0,clinical
+OS,global,All,Clinical,integrative_cluster_5,15,15,1.0,clinical
+OS,global,All,Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,global,All,Clinical,nottingham_prognostic_index,15,15,1.0,clinical
+OS,global,All,Clinical,pam50_+_claudin-low_subtype_LumA,15,15,1.0,clinical
+OS,global,All,Clinical,primary_tumor_laterality_Left,15,15,1.0,clinical
+OS,global,All,Clinical,primary_tumor_laterality_Right,15,15,1.0,clinical
+OS,global,All,Clinical,radio_therapy_0,15,15,1.0,clinical
+OS,global,All,Clinical,radio_therapy_1,15,15,1.0,clinical
+OS,global,All,Clinical,tumor_size,15,15,1.0,clinical
+OS,global,All,Clinical,tumor_stage,15,15,1.0,clinical
+OS,global,All,Clinical,pam50_+_claudin-low_subtype_claudin-low,14,15,0.9333333333333333,clinical
+OS,global,All,Clinical,type_of_breast_surgery_BREAST CONSERVING,14,15,0.9333333333333333,clinical
+OS,global,All,Clinical,type_of_breast_surgery_MASTECTOMY,14,15,0.9333333333333333,clinical
+OS,global,All,Clinical,integrative_cluster_9,13,15,0.8666666666666667,clinical
+OS,global,All,Clinical,neoplasm_histologic_grade,13,15,0.8666666666666667,clinical
+OS,global,All,Clinical,her2_status_measured_by_snp6_GAIN,12,15,0.8,clinical
+OS,global,All,Clinical,pam50_+_claudin-low_subtype_Normal,12,15,0.8,clinical
+OS,global,All,Clinical,pr_status_Negative,12,15,0.8,clinical
+OS,global,All,Clinical,pr_status_Positive,12,15,0.8,clinical
+OS,global,All,Clinical,hormone_therapy_0,11,15,0.7333333333333333,clinical
+OS,global,All,Clinical,hormone_therapy_1,11,15,0.7333333333333333,clinical
+OS,global,All,Clinical,cellularity_High,10,15,0.6666666666666666,clinical
+OS,global,All,Clinical,her2_status_measured_by_snp6_NEUTRAL,10,15,0.6666666666666666,clinical
+OS,global,All,Clinical,integrative_cluster_7,10,15,0.6666666666666666,clinical
+OS,global,All,Clinical,mutation_count,10,15,0.6666666666666666,clinical
+OS,global,All,Clinical,3-gene_classifier_subtype_ER-/HER2-,8,15,0.5333333333333333,clinical
+OS,global,All,Clinical,integrative_cluster_3,8,15,0.5333333333333333,clinical
+OS,global,All,Clinical,cellularity_Low,7,15,0.4666666666666667,clinical
+OS,global,All,Clinical,er_status_measured_by_ihc_Negative,7,15,0.4666666666666667,clinical
+OS,global,All,Clinical,er_status_measured_by_ihc_Positve,7,15,0.4666666666666667,clinical
+OS,global,All,Clinical,cancer_type_detailed_Breast Mixed Ductal and Lobular Carcinoma,6,15,0.4,clinical
+OS,global,All,Clinical,pam50_+_claudin-low_subtype_Basal,6,15,0.4,clinical
+OS,global,All,Clinical,integrative_cluster_4ER+,5,15,0.3333333333333333,clinical
+OS,global,All,Clinical,cancer_type_detailed_Breast Invasive Ductal Carcinoma,4,15,0.26666666666666666,clinical
+OS,global,All,Clinical,her2_status_Negative,4,15,0.26666666666666666,clinical
+OS,global,All,Clinical,her2_status_Positive,4,15,0.26666666666666666,clinical
+OS,global,All,Clinical,integrative_cluster_6,4,15,0.26666666666666666,clinical
+OS,global,All,Clinical,pam50_+_claudin-low_subtype_Her2,4,15,0.26666666666666666,clinical
+OS,global,All,Clinical,3-gene_classifier_subtype_ER+/HER2- Low Prolif,3,15,0.2,clinical
+OS,global,All,Clinical,cancer_type_detailed_Breast,3,15,0.2,clinical
+OS,global,All,Clinical,integrative_cluster_2,3,15,0.2,clinical
+OS,global,All,Clinical,3-gene_classifier_subtype_HER2+,2,15,0.13333333333333333,clinical
+OS,global,All,Clinical,cancer_type_detailed_Breast Invasive Lobular Carcinoma,2,15,0.13333333333333333,clinical
+OS,global,All,Clinical,integrative_cluster_1,2,15,0.13333333333333333,clinical
+OS,global,All,Clinical,integrative_cluster_8,1,15,0.06666666666666667,clinical
+OS,global,All,Clinical,pam50_+_claudin-low_subtype_LumB,1,15,0.06666666666666667,clinical
+OS,global,All,Genes,abcb1,15,15,1.0,gene
+OS,global,All,Genes,flt3,15,15,1.0,gene
+OS,global,All,Genes,gsk3b,15,15,1.0,gene
+OS,global,All,Genes,stat5a,15,15,1.0,gene
+OS,global,All,Genes,bcl2,14,15,0.9333333333333333,gene
+OS,global,All,Genes,ccnd2,14,15,0.9333333333333333,gene
+OS,global,All,Genes,ncoa3,13,15,0.8666666666666667,gene
+OS,global,All,Genes,igf1r,11,15,0.7333333333333333,gene
+OS,global,All,Genes,vegfa,11,15,0.7333333333333333,gene
+OS,global,All,Genes,igf1,10,15,0.6666666666666666,gene
+OS,global,All,Genes,cdkn2c,9,15,0.6,gene
+OS,global,All,Genes,nfkb1,9,15,0.6,gene
+OS,global,All,Genes,diras3,8,15,0.5333333333333333,gene
+OS,global,All,Genes,cir1,7,15,0.4666666666666667,gene
+OS,global,All,Genes,cyp11a1,7,15,0.4666666666666667,gene
+OS,global,All,Genes,prkcq,7,15,0.4666666666666667,gene
+OS,global,All,Genes,rps6,7,15,0.4666666666666667,gene
+OS,global,All,Genes,stat5b,7,15,0.4666666666666667,gene
+OS,global,All,Genes,aurka,6,15,0.4,gene
+OS,global,All,Genes,kit,5,15,0.3333333333333333,gene
+OS,global,All,Genes,ccnb1,4,15,0.26666666666666666,gene
+OS,global,All,Genes,fancd2,4,15,0.26666666666666666,gene
+OS,global,All,Genes,kras,4,15,0.26666666666666666,gene
+OS,global,All,Genes,nrip1,4,15,0.26666666666666666,gene
+OS,global,All,Genes,spry2,4,15,0.26666666666666666,gene
+OS,global,All,Genes,ccne1,3,15,0.2,gene
+OS,global,All,Genes,e2f7,3,15,0.2,gene
+OS,global,All,Genes,eif4ebp1,3,15,0.2,gene
+OS,global,All,Genes,map3k1,3,15,0.2,gene
+OS,global,All,Genes,mapt,3,15,0.2,gene
+OS,global,All,Genes,runx1,3,15,0.2,gene
+OS,global,All,Genes,wwox,3,15,0.2,gene
+OS,global,All,Genes,gdf11,2,15,0.13333333333333333,gene
+OS,global,All,Genes,jak2,2,15,0.13333333333333333,gene
+OS,global,All,Genes,magea8,2,15,0.13333333333333333,gene
+OS,global,All,Genes,nr3c1,2,15,0.13333333333333333,gene
+OS,global,All,Genes,raf1,2,15,0.13333333333333333,gene
+OS,global,All,Genes,tubb4b,2,15,0.13333333333333333,gene
+OS,global,All,Genes,ahnak,1,15,0.06666666666666667,gene
+OS,global,All,Genes,akt1,1,15,0.06666666666666667,gene
+OS,global,All,Genes,aph1b,1,15,0.06666666666666667,gene
+OS,global,All,Genes,cdc25a,1,15,0.06666666666666667,gene
+OS,global,All,Genes,cdk2,1,15,0.06666666666666667,gene
+OS,global,All,Genes,chek1,1,15,0.06666666666666667,gene
+OS,global,All,Genes,ctcf,1,15,0.06666666666666667,gene
+OS,global,All,Genes,e2f2,1,15,0.06666666666666667,gene
+OS,global,All,Genes,e2f4,1,15,0.06666666666666667,gene
+OS,global,All,Genes,e2f8,1,15,0.06666666666666667,gene
+OS,global,All,Genes,fn1,1,15,0.06666666666666667,gene
+OS,global,All,Genes,gata3,1,15,0.06666666666666667,gene
+OS,global,All,Genes,map2,1,15,0.06666666666666667,gene
+OS,global,All,Genes,map2k4,1,15,0.06666666666666667,gene
+OS,global,All,Genes,mmp15,1,15,0.06666666666666667,gene
+OS,global,All,Genes,nek1,1,15,0.06666666666666667,gene
+OS,global,All,Genes,pdgfb,1,15,0.06666666666666667,gene
+OS,global,All,Genes,pdgfra,1,15,0.06666666666666667,gene
+OS,global,All,Genes,rad51,1,15,0.06666666666666667,gene
+OS,global,All,Genes,rdh5,1,15,0.06666666666666667,gene
+OS,global,All,Genes,smarcb1,1,15,0.06666666666666667,gene
+OS,global,All,Genes,tbx3,1,15,0.06666666666666667,gene
+OS,global,All,Genes,tgfb3,1,15,0.06666666666666667,gene
+OS,global,All,Genes,tubb4a,1,15,0.06666666666666667,gene
+OS,global,All,Genes,ugt2b15,1,15,0.06666666666666667,gene
+OS,global,All,Mutations,gata3_mut,15,15,1.0,mutation
+OS,global,All,Mutations,tp53_mut,15,15,1.0,mutation
+OS,global,All,Mutations,cbfb_mut,12,15,0.8,mutation
+OS,global,All,Mutations,pik3ca_mut,10,15,0.6666666666666666,mutation
+OS,global,All,Mutations,muc16_mut,7,15,0.4666666666666667,mutation
+OS,global,All,Mutations,lama2_mut,6,15,0.4,mutation
+OS,global,All,Mutations,cdh1_mut,5,15,0.3333333333333333,mutation
+OS,global,All,Mutations,kmt2c_mut,4,15,0.26666666666666666,mutation
+OS,global,All,Mutations,ncor2_mut,4,15,0.26666666666666666,mutation
+OS,global,All,Mutations,ahnak2_mut,3,15,0.2,mutation
+OS,global,All,Mutations,dnah5_mut,3,15,0.2,mutation
+OS,global,All,Mutations,birc6_mut,2,15,0.13333333333333333,mutation
+OS,global,All,Mutations,ep300_mut,2,15,0.13333333333333333,mutation
+OS,global,All,Mutations,map3k1_mut,2,15,0.13333333333333333,mutation
+OS,global,All,Mutations,ahnak_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Mutations,col22a1_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Mutations,col6a3_mut,1,15,0.06666666666666667,mutation
+OS,global,All,Mutations,dnah11_mut,1,15,0.06666666666666667,mutation
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,age_at_diagnosis,15,15,1.0,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,rbpj,15,15,1.0,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,tumor_stage,15,15,1.0,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,nottingham_prognostic_index,14,15,0.9333333333333333,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,ccnd2,13,15,0.8666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,hes1,13,15,0.8666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,tumor_size,12,15,0.8,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,bcl2,10,15,0.6666666666666666,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,shbg,8,15,0.5333333333333333,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,stat5b,8,15,0.5333333333333333,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,nr3c1,7,15,0.4666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,abcb1,6,15,0.4,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,rdh5,6,15,0.4,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,dll4,5,15,0.3333333333333333,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,dnah11,5,15,0.3333333333333333,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,type_of_breast_surgery_BREAST CONSERVING,5,15,0.3333333333333333,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,type_of_breast_surgery_MASTECTOMY,5,15,0.3333333333333333,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,vegfa,5,15,0.3333333333333333,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,ptpn22,4,15,0.26666666666666666,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,cdkn2c,3,15,0.2,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,cyp11a1,3,15,0.2,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,fbxw7,3,15,0.2,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,fn1,3,15,0.2,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,map3k3,3,15,0.2,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,stat1,3,15,0.2,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,arrdc1,2,15,0.13333333333333333,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,cxcl8,2,15,0.13333333333333333,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,dlec1,2,15,0.13333333333333333,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,gsk3b,2,15,0.13333333333333333,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,kit,2,15,0.13333333333333333,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,klrg1,2,15,0.13333333333333333,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,prkcz,2,15,0.13333333333333333,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,abcc10,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,acvr1c,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,cyp3a5,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,epcam,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,fancd2,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,flt3,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,hla-g,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,hsd17b13,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,inha,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,integrative_cluster_10,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,jak2,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,nfkb1,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,prkg1,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,siah1,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,smad9,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,stat5a,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clin+Genes,ush2a,1,15,0.06666666666666667,gene
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,age_at_diagnosis,15,15,1.0,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,nottingham_prognostic_index,15,15,1.0,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,tumor_stage,15,15,1.0,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,tumor_size,14,15,0.9333333333333333,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,pam50_+_claudin-low_subtype_claudin-low,10,15,0.6666666666666666,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,er_status_Negative,7,15,0.4666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,er_status_Positive,7,15,0.4666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,radio_therapy_0,7,15,0.4666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,radio_therapy_1,7,15,0.4666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,type_of_breast_surgery_BREAST CONSERVING,7,15,0.4666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,type_of_breast_surgery_MASTECTOMY,7,15,0.4666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,3-gene_classifier_subtype_ER+/HER2- High Prolif,6,15,0.4,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,cellularity_High,6,15,0.4,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,integrative_cluster_10,5,15,0.3333333333333333,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,pam50_+_claudin-low_subtype_Her2,4,15,0.26666666666666666,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,integrative_cluster_5,3,15,0.2,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,primary_tumor_laterality_Left,3,15,0.2,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,primary_tumor_laterality_Right,3,15,0.2,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,hormone_therapy_0,2,15,0.13333333333333333,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,hormone_therapy_1,2,15,0.13333333333333333,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,inferred_menopausal_state_Post,2,15,0.13333333333333333,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,inferred_menopausal_state_Pre,2,15,0.13333333333333333,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,neoplasm_histologic_grade,2,15,0.13333333333333333,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,3-gene_classifier_subtype_ER-/HER2-,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,cancer_type_detailed_Breast Invasive Ductal Carcinoma,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,cancer_type_detailed_Breast Invasive Lobular Carcinoma,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,cellularity_Low,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,her2_status_Negative,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,her2_status_Positive,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,her2_status_measured_by_snp6_LOSS,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,her2_status_measured_by_snp6_NEUTRAL,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,integrative_cluster_4ER+,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,integrative_cluster_6,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,integrative_cluster_7,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,mutation_count,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,pam50_+_claudin-low_subtype_Basal,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,pr_status_Negative,1,15,0.06666666666666667,clinical
+OS,specific,Aggressive (Basal/HER2/CL),Clinical,pr_status_Positive,1,15,0.06666666666666667,clinical
+OS,specific,Basal,Clin+Genes,age_at_diagnosis,15,15,1.0,clinical
+OS,specific,Basal,Clin+Genes,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,specific,Basal,Clin+Genes,type_of_breast_surgery_BREAST CONSERVING,15,15,1.0,clinical
+OS,specific,Basal,Clin+Genes,type_of_breast_surgery_MASTECTOMY,15,15,1.0,clinical
+OS,specific,Basal,Clin+Genes,hes1,14,15,0.9333333333333333,gene
+OS,specific,Basal,Clin+Genes,ugt2b17,14,15,0.9333333333333333,gene
+OS,specific,Basal,Clin+Genes,tumor_stage,13,15,0.8666666666666667,clinical
+OS,specific,Basal,Clin+Genes,cul1,11,15,0.7333333333333333,gene
+OS,specific,Basal,Clin+Genes,radio_therapy_0,11,15,0.7333333333333333,clinical
+OS,specific,Basal,Clin+Genes,radio_therapy_1,11,15,0.7333333333333333,clinical
+OS,specific,Basal,Clin+Genes,e2f6,10,15,0.6666666666666666,gene
+OS,specific,Basal,Clin+Genes,hsd3b2,10,15,0.6666666666666666,gene
+OS,specific,Basal,Clin+Genes,mutation_count,10,15,0.6666666666666666,clinical
+OS,specific,Basal,Clin+Genes,brca2,9,15,0.6,gene
+OS,specific,Basal,Clin+Genes,hes6,9,15,0.6,gene
+OS,specific,Basal,Clin+Genes,nottingham_prognostic_index,9,15,0.6,clinical
+OS,specific,Basal,Clin+Genes,apc,8,15,0.5333333333333333,gene
+OS,specific,Basal,Clin+Genes,flt3,8,15,0.5333333333333333,gene
+OS,specific,Basal,Clin+Genes,folr1,8,15,0.5333333333333333,gene
+OS,specific,Basal,Clin+Genes,prkg1,8,15,0.5333333333333333,gene
+OS,specific,Basal,Clin+Genes,smad7,8,15,0.5333333333333333,gene
+OS,specific,Basal,Clin+Genes,cellularity_High,7,15,0.4666666666666667,clinical
+OS,specific,Basal,Clin+Genes,map3k4,7,15,0.4666666666666667,gene
+OS,specific,Basal,Clin+Genes,mmp1,7,15,0.4666666666666667,gene
+OS,specific,Basal,Clin+Genes,neoplasm_histologic_grade,7,15,0.4666666666666667,clinical
+OS,specific,Basal,Clin+Genes,prkcq,7,15,0.4666666666666667,gene
+OS,specific,Basal,Clin+Genes,prkcz,7,15,0.4666666666666667,gene
+OS,specific,Basal,Clin+Genes,zfyve9,7,15,0.4666666666666667,gene
+OS,specific,Basal,Clin+Genes,bmp7,6,15,0.4,gene
+OS,specific,Basal,Clin+Genes,rab25,6,15,0.4,gene
+OS,specific,Basal,Clin+Genes,sdc4,6,15,0.4,gene
+OS,specific,Basal,Clin+Genes,shbg,6,15,0.4,gene
+OS,specific,Basal,Clin+Genes,tumor_size,6,15,0.4,clinical
+OS,specific,Basal,Clin+Genes,abcc10,5,15,0.3333333333333333,gene
+OS,specific,Basal,Clin+Genes,acvr1b,5,15,0.3333333333333333,gene
+OS,specific,Basal,Clin+Genes,ccnd2,5,15,0.3333333333333333,gene
+OS,specific,Basal,Clin+Genes,map3k10,5,15,0.3333333333333333,gene
+OS,specific,Basal,Clin+Genes,mdm2,5,15,0.3333333333333333,gene
+OS,specific,Basal,Clin+Genes,primary_tumor_laterality_Left,5,15,0.3333333333333333,clinical
+OS,specific,Basal,Clin+Genes,primary_tumor_laterality_Right,5,15,0.3333333333333333,clinical
+OS,specific,Basal,Clin+Genes,spry2,5,15,0.3333333333333333,gene
+OS,specific,Basal,Clin+Genes,srd5a1,5,15,0.3333333333333333,gene
+OS,specific,Basal,Clin+Genes,stat3,5,15,0.3333333333333333,gene
+OS,specific,Basal,Clin+Genes,bmp15,4,15,0.26666666666666666,gene
+OS,specific,Basal,Clin+Genes,dll4,4,15,0.26666666666666666,gene
+OS,specific,Basal,Clin+Genes,myo3a,4,15,0.26666666666666666,gene
+OS,specific,Basal,Clin+Genes,akt3,3,15,0.2,gene
+OS,specific,Basal,Clin+Genes,bmp10,3,15,0.2,gene
+OS,specific,Basal,Clin+Genes,col22a1,3,15,0.2,gene
+OS,specific,Basal,Clin+Genes,cyp3a5,3,15,0.2,gene
+OS,specific,Basal,Clin+Genes,fanca,3,15,0.2,gene
+OS,specific,Basal,Clin+Genes,hey1,3,15,0.2,gene
+OS,specific,Basal,Clin+Genes,hormone_therapy_0,3,15,0.2,clinical
+OS,specific,Basal,Clin+Genes,hormone_therapy_1,3,15,0.2,clinical
+OS,specific,Basal,Clin+Genes,hsd3b7,3,15,0.2,gene
+OS,specific,Basal,Clin+Genes,kdm3a,3,15,0.2,gene
+OS,specific,Basal,Clin+Genes,map3k3,3,15,0.2,gene
+OS,specific,Basal,Clin+Genes,map3k5,3,15,0.2,gene
+OS,specific,Basal,Clin+Genes,notch1,3,15,0.2,gene
+OS,specific,Basal,Clin+Genes,rasgef1b,3,15,0.2,gene
+OS,specific,Basal,Clin+Genes,rptor,3,15,0.2,gene
+OS,specific,Basal,Clin+Genes,bmp6,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,bmpr1a,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,cbfb,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,cdk6,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,chek2,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,chemotherapy_0,2,15,0.13333333333333333,clinical
+OS,specific,Basal,Clin+Genes,chemotherapy_1,2,15,0.13333333333333333,clinical
+OS,specific,Basal,Clin+Genes,cxcl8,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,dlec1,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,dph1,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,dtx1,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,gata3,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,her2_status_measured_by_snp6_NEUTRAL,2,15,0.13333333333333333,clinical
+OS,specific,Basal,Clin+Genes,integrative_cluster_10,2,15,0.13333333333333333,clinical
+OS,specific,Basal,Clin+Genes,integrative_cluster_9,2,15,0.13333333333333333,clinical
+OS,specific,Basal,Clin+Genes,mmp3,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,nbn,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,ncor2,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,ptpn22,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,setd2,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,slco1b3,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,smad9,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,snw1,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,stat1,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,stmn2,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,tert,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,tg,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,tgfbr3,2,15,0.13333333333333333,gene
+OS,specific,Basal,Clin+Genes,acvr2b,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,afdn,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,agtr2,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,ahnak2,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,arid5b,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,bad,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,bbc3,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,bmpr1b,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,bmpr2,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,cellularity_Moderate,1,15,0.06666666666666667,clinical
+OS,specific,Basal,Clin+Genes,chd1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,cir1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,clk3,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,ctnna1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,ctnna3,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,cyp11a1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,cyp17a1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,dnah5,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,dtwd2,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,e2f1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,e2f7,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,epcam,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,fancd2,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,fn1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,gsk3b,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,her2_status_measured_by_snp6_GAIN,1,15,0.06666666666666667,clinical
+OS,specific,Basal,Clin+Genes,hsd17b12,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,hsd17b13,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,hsd17b14,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,hsd17b6,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,hsd17b8,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,inhbc,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,integrative_cluster_infrequent_sklearn,1,15,0.06666666666666667,clinical
+OS,specific,Basal,Clin+Genes,izumo1r,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,kdr,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,lipi,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,map2,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,map2k1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,mmp16,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,myc,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,nf1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,nfkb1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,nrarp,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,palb2,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,pms2,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,ppp2r2a,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,pr_status_Negative,1,15,0.06666666666666667,clinical
+OS,specific,Basal,Clin+Genes,pr_status_Positive,1,15,0.06666666666666667,clinical
+OS,specific,Basal,Clin+Genes,prps2,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,rbpjl,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,rheb,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,rps6kb2,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,serpini1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,setd1a,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,slc29a1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,smad3,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,smad5,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,smad6,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,smarcd1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,st7,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,taf1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,tgfb1,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,tnk2,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,ugt2b7,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,vegfa,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clin+Genes,wfdc2,1,15,0.06666666666666667,gene
+OS,specific,Basal,Clinical,age_at_diagnosis,15,15,1.0,clinical
+OS,specific,Basal,Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,specific,Basal,Clinical,tumor_stage,13,15,0.8666666666666667,clinical
+OS,specific,Basal,Clinical,type_of_breast_surgery_BREAST CONSERVING,6,15,0.4,clinical
+OS,specific,Basal,Clinical,type_of_breast_surgery_MASTECTOMY,6,15,0.4,clinical
+OS,specific,Basal,Clinical,nottingham_prognostic_index,4,15,0.26666666666666666,clinical
+OS,specific,Basal,Clinical,mutation_count,3,15,0.2,clinical
+OS,specific,Basal,Clinical,tumor_size,3,15,0.2,clinical
+OS,specific,Basal,Clinical,neoplasm_histologic_grade,2,15,0.13333333333333333,clinical
+OS,specific,Basal,Clinical,radio_therapy_0,2,15,0.13333333333333333,clinical
+OS,specific,Basal,Clinical,radio_therapy_1,2,15,0.13333333333333333,clinical
+OS,specific,Basal,Clinical,her2_status_measured_by_snp6_GAIN,1,15,0.06666666666666667,clinical
+OS,specific,Basal,Clinical,hormone_therapy_0,1,15,0.06666666666666667,clinical
+OS,specific,Basal,Clinical,hormone_therapy_1,1,15,0.06666666666666667,clinical
+OS,specific,Basal,Clinical,inferred_menopausal_state_Post,1,15,0.06666666666666667,clinical
+OS,specific,Basal,Clinical,inferred_menopausal_state_Pre,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clin+Genes,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,specific,Claudin-low,Clin+Genes,age_at_diagnosis,14,15,0.9333333333333333,clinical
+OS,specific,Claudin-low,Clin+Genes,tumor_size,14,15,0.9333333333333333,clinical
+OS,specific,Claudin-low,Clin+Genes,kit,13,15,0.8666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,tumor_stage,13,15,0.8666666666666667,clinical
+OS,specific,Claudin-low,Clin+Genes,nottingham_prognostic_index,11,15,0.7333333333333333,clinical
+OS,specific,Claudin-low,Clin+Genes,shank2,11,15,0.7333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,tbx3,11,15,0.7333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,akap9,9,15,0.6,gene
+OS,specific,Claudin-low,Clin+Genes,dnah11,9,15,0.6,gene
+OS,specific,Claudin-low,Clin+Genes,frmd3,9,15,0.6,gene
+OS,specific,Claudin-low,Clin+Genes,gsk3b,7,15,0.4666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,shbg,7,15,0.4666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,stat5b,7,15,0.4666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,3-gene_classifier_subtype_infrequent_sklearn,6,15,0.4,clinical
+OS,specific,Claudin-low,Clin+Genes,hist1h2bc,6,15,0.4,gene
+OS,specific,Claudin-low,Clin+Genes,igf1r,6,15,0.4,gene
+OS,specific,Claudin-low,Clin+Genes,mutation_count,6,15,0.4,clinical
+OS,specific,Claudin-low,Clin+Genes,primary_tumor_laterality_Left,6,15,0.4,clinical
+OS,specific,Claudin-low,Clin+Genes,primary_tumor_laterality_Right,6,15,0.4,clinical
+OS,specific,Claudin-low,Clin+Genes,ttyh1,6,15,0.4,gene
+OS,specific,Claudin-low,Clin+Genes,bmp7,5,15,0.3333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,cellularity_Low,5,15,0.3333333333333333,clinical
+OS,specific,Claudin-low,Clin+Genes,eif4ebp1,5,15,0.3333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,mmp13,5,15,0.3333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,notch3,5,15,0.3333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,rad51d,5,15,0.3333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,rps6kb2,5,15,0.3333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,cdk8,4,15,0.26666666666666666,gene
+OS,specific,Claudin-low,Clin+Genes,dtx2,4,15,0.26666666666666666,gene
+OS,specific,Claudin-low,Clin+Genes,e2f4,4,15,0.26666666666666666,gene
+OS,specific,Claudin-low,Clin+Genes,er_status_measured_by_ihc_Negative,4,15,0.26666666666666666,clinical
+OS,specific,Claudin-low,Clin+Genes,er_status_measured_by_ihc_Positve,4,15,0.26666666666666666,clinical
+OS,specific,Claudin-low,Clin+Genes,hormone_therapy_0,4,15,0.26666666666666666,clinical
+OS,specific,Claudin-low,Clin+Genes,hormone_therapy_1,4,15,0.26666666666666666,clinical
+OS,specific,Claudin-low,Clin+Genes,hras,4,15,0.26666666666666666,gene
+OS,specific,Claudin-low,Clin+Genes,integrative_cluster_10,4,15,0.26666666666666666,clinical
+OS,specific,Claudin-low,Clin+Genes,integrative_cluster_4ER+,4,15,0.26666666666666666,clinical
+OS,specific,Claudin-low,Clin+Genes,integrative_cluster_infrequent_sklearn,4,15,0.26666666666666666,clinical
+OS,specific,Claudin-low,Clin+Genes,maml3,4,15,0.26666666666666666,gene
+OS,specific,Claudin-low,Clin+Genes,notch2,4,15,0.26666666666666666,gene
+OS,specific,Claudin-low,Clin+Genes,ppp2r2a,4,15,0.26666666666666666,gene
+OS,specific,Claudin-low,Clin+Genes,smarcb1,4,15,0.26666666666666666,gene
+OS,specific,Claudin-low,Clin+Genes,sox9,4,15,0.26666666666666666,gene
+OS,specific,Claudin-low,Clin+Genes,tubb4a,4,15,0.26666666666666666,gene
+OS,specific,Claudin-low,Clin+Genes,adam17,3,15,0.2,gene
+OS,specific,Claudin-low,Clin+Genes,arl11,3,15,0.2,gene
+OS,specific,Claudin-low,Clin+Genes,chek1,3,15,0.2,gene
+OS,specific,Claudin-low,Clin+Genes,integrative_cluster_4ER-,3,15,0.2,clinical
+OS,specific,Claudin-low,Clin+Genes,kdr,3,15,0.2,gene
+OS,specific,Claudin-low,Clin+Genes,l1cam,3,15,0.2,gene
+OS,specific,Claudin-low,Clin+Genes,nf2,3,15,0.2,gene
+OS,specific,Claudin-low,Clin+Genes,nr3c1,3,15,0.2,gene
+OS,specific,Claudin-low,Clin+Genes,nrg3,3,15,0.2,gene
+OS,specific,Claudin-low,Clin+Genes,pr_status_Negative,3,15,0.2,clinical
+OS,specific,Claudin-low,Clin+Genes,pr_status_Positive,3,15,0.2,clinical
+OS,specific,Claudin-low,Clin+Genes,rab25,3,15,0.2,gene
+OS,specific,Claudin-low,Clin+Genes,rps6,3,15,0.2,gene
+OS,specific,Claudin-low,Clin+Genes,smarcc1,3,15,0.2,gene
+OS,specific,Claudin-low,Clin+Genes,tgfb1,3,15,0.2,gene
+OS,specific,Claudin-low,Clin+Genes,3-gene_classifier_subtype_ER+/HER2- Low Prolif,2,15,0.13333333333333333,clinical
+OS,specific,Claudin-low,Clin+Genes,casp9,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,ccne1,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,cdk1,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,cellularity_High,2,15,0.13333333333333333,clinical
+OS,specific,Claudin-low,Clin+Genes,chemotherapy_0,2,15,0.13333333333333333,clinical
+OS,specific,Claudin-low,Clin+Genes,chemotherapy_1,2,15,0.13333333333333333,clinical
+OS,specific,Claudin-low,Clin+Genes,fanca,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,her2_status_Negative,2,15,0.13333333333333333,clinical
+OS,specific,Claudin-low,Clin+Genes,her2_status_Positive,2,15,0.13333333333333333,clinical
+OS,specific,Claudin-low,Clin+Genes,hes5,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,inhba,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,large1,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,neoplasm_histologic_grade,2,15,0.13333333333333333,clinical
+OS,specific,Claudin-low,Clin+Genes,nfkb1,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,numb,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,smad7,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,spen,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,stat3,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,stat5a,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,tg,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,tgfbr3,2,15,0.13333333333333333,gene
+OS,specific,Claudin-low,Clin+Genes,type_of_breast_surgery_BREAST CONSERVING,2,15,0.13333333333333333,clinical
+OS,specific,Claudin-low,Clin+Genes,type_of_breast_surgery_MASTECTOMY,2,15,0.13333333333333333,clinical
+OS,specific,Claudin-low,Clin+Genes,abcb1,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,acvr1c,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,akt1,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,atm,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,aurka,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,cancer_type_detailed_Breast Invasive Lobular Carcinoma,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clin+Genes,cancer_type_detailed_Breast Mixed Ductal and Lobular Carcinoma,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clin+Genes,cancer_type_detailed_infrequent_sklearn,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clin+Genes,cdk2,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,cellularity_Moderate,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clin+Genes,clrn2,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,col6a3,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,cyp17a1,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,ddc,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,diras3,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,dll1,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,er_status_Negative,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clin+Genes,er_status_Positive,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clin+Genes,erbb3,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,her2_status_measured_by_snp6_GAIN,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clin+Genes,her2_status_measured_by_snp6_NEUTRAL,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clin+Genes,her2_status_measured_by_snp6_infrequent_sklearn,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clin+Genes,heyl,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,hif1a,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,inferred_menopausal_state_Post,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clin+Genes,inferred_menopausal_state_Pre,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clin+Genes,jak2,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,ldlrap1,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,map2k2,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,mapk4,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,mmp14,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,mmp2,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,mmp21,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,ncstn,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,palb2,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,prkg1,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,ptk2,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,rb1,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,rbpjl,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,setdb1,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,smarcd1,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,tgfb2,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clin+Genes,tp53,1,15,0.06666666666666667,gene
+OS,specific,Claudin-low,Clinical,age_at_diagnosis,15,15,1.0,clinical
+OS,specific,Claudin-low,Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,specific,Claudin-low,Clinical,tumor_size,15,15,1.0,clinical
+OS,specific,Claudin-low,Clinical,tumor_stage,14,15,0.9333333333333333,clinical
+OS,specific,Claudin-low,Clinical,nottingham_prognostic_index,10,15,0.6666666666666666,clinical
+OS,specific,Claudin-low,Clinical,mutation_count,7,15,0.4666666666666667,clinical
+OS,specific,Claudin-low,Clinical,3-gene_classifier_subtype_ER+/HER2- Low Prolif,3,15,0.2,clinical
+OS,specific,Claudin-low,Clinical,neoplasm_histologic_grade,3,15,0.2,clinical
+OS,specific,Claudin-low,Clinical,3-gene_classifier_subtype_infrequent_sklearn,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clinical,cellularity_High,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clinical,cellularity_Low,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clinical,cellularity_Moderate,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clinical,er_status_measured_by_ihc_Negative,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clinical,er_status_measured_by_ihc_Positve,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clinical,her2_status_measured_by_snp6_GAIN,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clinical,her2_status_measured_by_snp6_infrequent_sklearn,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clinical,hormone_therapy_0,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clinical,hormone_therapy_1,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clinical,inferred_menopausal_state_Post,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clinical,inferred_menopausal_state_Pre,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clinical,integrative_cluster_10,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clinical,integrative_cluster_4ER-,1,15,0.06666666666666667,clinical
+OS,specific,Claudin-low,Clinical,integrative_cluster_infrequent_sklearn,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clin+Genes,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,specific,HER2-enriched,Clin+Genes,tumor_stage,14,15,0.9333333333333333,clinical
+OS,specific,HER2-enriched,Clin+Genes,mapk14,13,15,0.8666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,cdkn1a,12,15,0.8,gene
+OS,specific,HER2-enriched,Clin+Genes,eif5a2,12,15,0.8,gene
+OS,specific,HER2-enriched,Clin+Genes,tumor_size,12,15,0.8,clinical
+OS,specific,HER2-enriched,Clin+Genes,age_at_diagnosis,11,15,0.7333333333333333,clinical
+OS,specific,HER2-enriched,Clin+Genes,large1,11,15,0.7333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,nottingham_prognostic_index,11,15,0.7333333333333333,clinical
+OS,specific,HER2-enriched,Clin+Genes,fbxw7,10,15,0.6666666666666666,gene
+OS,specific,HER2-enriched,Clin+Genes,dll4,9,15,0.6,gene
+OS,specific,HER2-enriched,Clin+Genes,type_of_breast_surgery_BREAST CONSERVING,9,15,0.6,clinical
+OS,specific,HER2-enriched,Clin+Genes,type_of_breast_surgery_MASTECTOMY,9,15,0.6,clinical
+OS,specific,HER2-enriched,Clin+Genes,prkacg,8,15,0.5333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,arid1a,7,15,0.4666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,maml2,7,15,0.4666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,map2,7,15,0.4666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,3-gene_classifier_subtype_ER+/HER2- High Prolif,6,15,0.4,clinical
+OS,specific,HER2-enriched,Clin+Genes,hes1,6,15,0.4,gene
+OS,specific,HER2-enriched,Clin+Genes,hsd17b13,6,15,0.4,gene
+OS,specific,HER2-enriched,Clin+Genes,kmt2c,6,15,0.4,gene
+OS,specific,HER2-enriched,Clin+Genes,rbpj,6,15,0.4,gene
+OS,specific,HER2-enriched,Clin+Genes,ctcf,5,15,0.3333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,tnk2,5,15,0.3333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,mmp16,4,15,0.26666666666666666,gene
+OS,specific,HER2-enriched,Clin+Genes,neoplasm_histologic_grade,4,15,0.26666666666666666,clinical
+OS,specific,HER2-enriched,Clin+Genes,srd5a1,4,15,0.26666666666666666,gene
+OS,specific,HER2-enriched,Clin+Genes,vegfa,4,15,0.26666666666666666,gene
+OS,specific,HER2-enriched,Clin+Genes,abcc1,3,15,0.2,gene
+OS,specific,HER2-enriched,Clin+Genes,ctbp1,3,15,0.2,gene
+OS,specific,HER2-enriched,Clin+Genes,dlec1,3,15,0.2,gene
+OS,specific,HER2-enriched,Clin+Genes,hes5,3,15,0.2,gene
+OS,specific,HER2-enriched,Clin+Genes,itch,3,15,0.2,gene
+OS,specific,HER2-enriched,Clin+Genes,map2k5,3,15,0.2,gene
+OS,specific,HER2-enriched,Clin+Genes,mutation_count,3,15,0.2,clinical
+OS,specific,HER2-enriched,Clin+Genes,ptprm,3,15,0.2,gene
+OS,specific,HER2-enriched,Clin+Genes,rad51d,3,15,0.2,gene
+OS,specific,HER2-enriched,Clin+Genes,tg,3,15,0.2,gene
+OS,specific,HER2-enriched,Clin+Genes,thsd7a,3,15,0.2,gene
+OS,specific,HER2-enriched,Clin+Genes,ahnak,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,bad,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,bbc3,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,bcl2,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,cellularity_High,2,15,0.13333333333333333,clinical
+OS,specific,HER2-enriched,Clin+Genes,dnah11,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,flt3,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,hormone_therapy_0,2,15,0.13333333333333333,clinical
+OS,specific,HER2-enriched,Clin+Genes,hormone_therapy_1,2,15,0.13333333333333333,clinical
+OS,specific,HER2-enriched,Clin+Genes,hras,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,inha,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,mapt,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,mmp23b,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,myo3a,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,nbn,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,nrarp,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,rab25,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,radio_therapy_0,2,15,0.13333333333333333,clinical
+OS,specific,HER2-enriched,Clin+Genes,radio_therapy_1,2,15,0.13333333333333333,clinical
+OS,specific,HER2-enriched,Clin+Genes,smad2,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,smad6,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,stat1,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,tubb1,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,ush2a,2,15,0.13333333333333333,gene
+OS,specific,HER2-enriched,Clin+Genes,3-gene_classifier_subtype_HER2+,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clin+Genes,akr1c3,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,akt3,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,bap1,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,bmp5,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,braf,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,brca1,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,cacna2d3,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,casp3,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,chek1,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,cyb5a,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,dph1,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,e2f4,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,epcam,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,fgf1,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,folr3,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,foxo3,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,gh1,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,gldc,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,integrative_cluster_infrequent_sklearn,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clin+Genes,klrg1,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,l1cam,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,map2k1,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,map3k3,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,muc16,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,notch1,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,npnt,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,nr1i2,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,nr2f1,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,nr3c1,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,numb,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,primary_tumor_laterality_Left,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clin+Genes,primary_tumor_laterality_Right,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clin+Genes,rad50,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,rad51,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,rasgef1b,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,slc29a1,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,smad1,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,sox9,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,star,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,ttyh1,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clin+Genes,ugt2b17,1,15,0.06666666666666667,gene
+OS,specific,HER2-enriched,Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,specific,HER2-enriched,Clinical,nottingham_prognostic_index,15,15,1.0,clinical
+OS,specific,HER2-enriched,Clinical,tumor_stage,7,15,0.4666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,tumor_size,6,15,0.4,clinical
+OS,specific,HER2-enriched,Clinical,age_at_diagnosis,3,15,0.2,clinical
+OS,specific,HER2-enriched,Clinical,neoplasm_histologic_grade,2,15,0.13333333333333333,clinical
+OS,specific,HER2-enriched,Clinical,3-gene_classifier_subtype_ER+/HER2- High Prolif,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,cellularity_High,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,er_status_Negative,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,er_status_Positive,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,her2_status_measured_by_snp6_GAIN,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,inferred_menopausal_state_Post,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,inferred_menopausal_state_Pre,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,integrative_cluster_1,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,integrative_cluster_4ER-,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,pr_status_Negative,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,pr_status_Positive,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,radio_therapy_0,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,radio_therapy_1,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,type_of_breast_surgery_BREAST CONSERVING,1,15,0.06666666666666667,clinical
+OS,specific,HER2-enriched,Clinical,type_of_breast_surgery_MASTECTOMY,1,15,0.06666666666666667,clinical
+OS,specific,LumA,Clin+Genes,age_at_diagnosis,15,15,1.0,clinical
+OS,specific,LumA,Clin+Genes,lymph_nodes_examined_positive,14,15,0.9333333333333333,clinical
+OS,specific,LumA,Clin+Genes,tumor_size,14,15,0.9333333333333333,clinical
+OS,specific,LumA,Clin+Genes,gsk3b,11,15,0.7333333333333333,gene
+OS,specific,LumA,Clin+Genes,tgfb3,11,15,0.7333333333333333,gene
+OS,specific,LumA,Clin+Genes,abcb1,10,15,0.6666666666666666,gene
+OS,specific,LumA,Clin+Genes,stat5a,10,15,0.6666666666666666,gene
+OS,specific,LumA,Clin+Genes,type_of_breast_surgery_BREAST CONSERVING,10,15,0.6666666666666666,clinical
+OS,specific,LumA,Clin+Genes,type_of_breast_surgery_MASTECTOMY,10,15,0.6666666666666666,clinical
+OS,specific,LumA,Clin+Genes,ep300,9,15,0.6,gene
+OS,specific,LumA,Clin+Genes,asxl2,8,15,0.5333333333333333,gene
+OS,specific,LumA,Clin+Genes,her2_status_measured_by_snp6_GAIN,8,15,0.5333333333333333,clinical
+OS,specific,LumA,Clin+Genes,neoplasm_histologic_grade,8,15,0.5333333333333333,clinical
+OS,specific,LumA,Clin+Genes,ctcf,7,15,0.4666666666666667,gene
+OS,specific,LumA,Clin+Genes,pdpk1,7,15,0.4666666666666667,gene
+OS,specific,LumA,Clin+Genes,pr_status_Negative,7,15,0.4666666666666667,clinical
+OS,specific,LumA,Clin+Genes,pr_status_Positive,7,15,0.4666666666666667,clinical
+OS,specific,LumA,Clin+Genes,acvr2a,6,15,0.4,gene
+OS,specific,LumA,Clin+Genes,rps6,6,15,0.4,gene
+OS,specific,LumA,Clin+Genes,diras3,5,15,0.3333333333333333,gene
+OS,specific,LumA,Clin+Genes,mutation_count,5,15,0.3333333333333333,clinical
+OS,specific,LumA,Clin+Genes,radio_therapy_0,5,15,0.3333333333333333,clinical
+OS,specific,LumA,Clin+Genes,radio_therapy_1,5,15,0.3333333333333333,clinical
+OS,specific,LumA,Clin+Genes,3-gene_classifier_subtype_ER+/HER2- Low Prolif,4,15,0.26666666666666666,clinical
+OS,specific,LumA,Clin+Genes,fas,4,15,0.26666666666666666,gene
+OS,specific,LumA,Clin+Genes,map3k13,4,15,0.26666666666666666,gene
+OS,specific,LumA,Clin+Genes,pdgfra,4,15,0.26666666666666666,gene
+OS,specific,LumA,Clin+Genes,tbx3,4,15,0.26666666666666666,gene
+OS,specific,LumA,Clin+Genes,bmp5,3,15,0.2,gene
+OS,specific,LumA,Clin+Genes,cancer_type_detailed_Breast Mixed Ductal and Lobular Carcinoma,3,15,0.2,clinical
+OS,specific,LumA,Clin+Genes,igf1,3,15,0.2,gene
+OS,specific,LumA,Clin+Genes,kras,3,15,0.2,gene
+OS,specific,LumA,Clin+Genes,lamb3,3,15,0.2,gene
+OS,specific,LumA,Clin+Genes,mmp19,3,15,0.2,gene
+OS,specific,LumA,Clin+Genes,mmp3,3,15,0.2,gene
+OS,specific,LumA,Clin+Genes,rps6ka2,3,15,0.2,gene
+OS,specific,LumA,Clin+Genes,smad6,3,15,0.2,gene
+OS,specific,LumA,Clin+Genes,agmo,2,15,0.13333333333333333,gene
+OS,specific,LumA,Clin+Genes,arid5b,2,15,0.13333333333333333,gene
+OS,specific,LumA,Clin+Genes,aurka,2,15,0.13333333333333333,gene
+OS,specific,LumA,Clin+Genes,cellularity_Moderate,2,15,0.13333333333333333,clinical
+OS,specific,LumA,Clin+Genes,chemotherapy_0,2,15,0.13333333333333333,clinical
+OS,specific,LumA,Clin+Genes,chemotherapy_1,2,15,0.13333333333333333,clinical
+OS,specific,LumA,Clin+Genes,cyp11a1,2,15,0.13333333333333333,gene
+OS,specific,LumA,Clin+Genes,her2_status_measured_by_snp6_NEUTRAL,2,15,0.13333333333333333,clinical
+OS,specific,LumA,Clin+Genes,integrative_cluster_8,2,15,0.13333333333333333,clinical
+OS,specific,LumA,Clin+Genes,lama2,2,15,0.13333333333333333,gene
+OS,specific,LumA,Clin+Genes,smad4,2,15,0.13333333333333333,gene
+OS,specific,LumA,Clin+Genes,spry2,2,15,0.13333333333333333,gene
+OS,specific,LumA,Clin+Genes,sptbn1,2,15,0.13333333333333333,gene
+OS,specific,LumA,Clin+Genes,stmn2,2,15,0.13333333333333333,gene
+OS,specific,LumA,Clin+Genes,taf4b,2,15,0.13333333333333333,gene
+OS,specific,LumA,Clin+Genes,wwox,2,15,0.13333333333333333,gene
+OS,specific,LumA,Clin+Genes,akap9,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,cdkn2c,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,cellularity_High,1,15,0.06666666666666667,clinical
+OS,specific,LumA,Clin+Genes,fancd2,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,fgf2,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,gdf11,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,hormone_therapy_0,1,15,0.06666666666666667,clinical
+OS,specific,LumA,Clin+Genes,hormone_therapy_1,1,15,0.06666666666666667,clinical
+OS,specific,LumA,Clin+Genes,integrative_cluster_4ER+,1,15,0.06666666666666667,clinical
+OS,specific,LumA,Clin+Genes,kit,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,mmp10,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,mmp15,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,mmp27,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,nottingham_prognostic_index,1,15,0.06666666666666667,clinical
+OS,specific,LumA,Clin+Genes,palld,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,pms2,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,primary_tumor_laterality_Left,1,15,0.06666666666666667,clinical
+OS,specific,LumA,Clin+Genes,primary_tumor_laterality_Right,1,15,0.06666666666666667,clinical
+OS,specific,LumA,Clin+Genes,psenen,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,pten,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,rassf1,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,ryr2,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,sgcd,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,smarcc2,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,tgfb2,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,tgfbr2,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,ugt2b15,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,vegfa,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clin+Genes,zfp36l1,1,15,0.06666666666666667,gene
+OS,specific,LumA,Clinical,age_at_diagnosis,15,15,1.0,clinical
+OS,specific,LumA,Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,specific,LumA,Clinical,tumor_size,15,15,1.0,clinical
+OS,specific,LumA,Clinical,type_of_breast_surgery_BREAST CONSERVING,15,15,1.0,clinical
+OS,specific,LumA,Clinical,type_of_breast_surgery_MASTECTOMY,15,15,1.0,clinical
+OS,specific,LumA,Clinical,3-gene_classifier_subtype_ER+/HER2- Low Prolif,14,15,0.9333333333333333,clinical
+OS,specific,LumA,Clinical,her2_status_measured_by_snp6_GAIN,14,15,0.9333333333333333,clinical
+OS,specific,LumA,Clinical,radio_therapy_0,14,15,0.9333333333333333,clinical
+OS,specific,LumA,Clinical,radio_therapy_1,14,15,0.9333333333333333,clinical
+OS,specific,LumA,Clinical,neoplasm_histologic_grade,13,15,0.8666666666666667,clinical
+OS,specific,LumA,Clinical,pr_status_Negative,13,15,0.8666666666666667,clinical
+OS,specific,LumA,Clinical,pr_status_Positive,13,15,0.8666666666666667,clinical
+OS,specific,LumA,Clinical,cancer_type_detailed_Breast Mixed Ductal and Lobular Carcinoma,12,15,0.8,clinical
+OS,specific,LumA,Clinical,integrative_cluster_4ER+,12,15,0.8,clinical
+OS,specific,LumA,Clinical,cellularity_High,11,15,0.7333333333333333,clinical
+OS,specific,LumA,Clinical,chemotherapy_0,9,15,0.6,clinical
+OS,specific,LumA,Clinical,chemotherapy_1,9,15,0.6,clinical
+OS,specific,LumA,Clinical,primary_tumor_laterality_Left,8,15,0.5333333333333333,clinical
+OS,specific,LumA,Clinical,primary_tumor_laterality_Right,8,15,0.5333333333333333,clinical
+OS,specific,LumA,Clinical,mutation_count,7,15,0.4666666666666667,clinical
+OS,specific,LumA,Clinical,nottingham_prognostic_index,7,15,0.4666666666666667,clinical
+OS,specific,LumA,Clinical,integrative_cluster_7,6,15,0.4,clinical
+OS,specific,LumA,Clinical,cellularity_Moderate,5,15,0.3333333333333333,clinical
+OS,specific,LumA,Clinical,her2_status_measured_by_snp6_NEUTRAL,5,15,0.3333333333333333,clinical
+OS,specific,LumA,Clinical,cancer_type_detailed_infrequent_sklearn,4,15,0.26666666666666666,clinical
+OS,specific,LumA,Clinical,er_status_measured_by_ihc_Positve,4,15,0.26666666666666666,clinical
+OS,specific,LumA,Clinical,integrative_cluster_2,4,15,0.26666666666666666,clinical
+OS,specific,LumA,Clinical,integrative_cluster_3,4,15,0.26666666666666666,clinical
+OS,specific,LumA,Clinical,er_status_measured_by_ihc_Negative,3,15,0.2,clinical
+OS,specific,LumA,Clinical,inferred_menopausal_state_Post,3,15,0.2,clinical
+OS,specific,LumA,Clinical,inferred_menopausal_state_Pre,3,15,0.2,clinical
+OS,specific,LumA,Clinical,integrative_cluster_6,3,15,0.2,clinical
+OS,specific,LumA,Clinical,integrative_cluster_9,3,15,0.2,clinical
+OS,specific,LumA,Clinical,tumor_stage,3,15,0.2,clinical
+OS,specific,LumA,Clinical,cancer_type_detailed_Breast Invasive Ductal Carcinoma,2,15,0.13333333333333333,clinical
+OS,specific,LumA,Clinical,cancer_type_detailed_Breast Invasive Lobular Carcinoma,2,15,0.13333333333333333,clinical
+OS,specific,LumA,Clinical,hormone_therapy_0,2,15,0.13333333333333333,clinical
+OS,specific,LumA,Clinical,hormone_therapy_1,2,15,0.13333333333333333,clinical
+OS,specific,LumA,Clinical,3-gene_classifier_subtype_ER+/HER2- High Prolif,1,15,0.06666666666666667,clinical
+OS,specific,LumA,Clinical,3-gene_classifier_subtype_HER2+,1,15,0.06666666666666667,clinical
+OS,specific,LumA,Clinical,cellularity_Low,1,15,0.06666666666666667,clinical
+OS,specific,LumA,Clinical,er_status_measured_by_ihc_infrequent_sklearn,1,15,0.06666666666666667,clinical
+OS,specific,LumA,Clinical,her2_status_measured_by_snp6_LOSS,1,15,0.06666666666666667,clinical
+OS,specific,LumB,Clin+Genes,age_at_diagnosis,15,15,1.0,clinical
+OS,specific,LumB,Clin+Genes,flt3,15,15,1.0,gene
+OS,specific,LumB,Clin+Genes,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,specific,LumB,Clin+Genes,nottingham_prognostic_index,15,15,1.0,clinical
+OS,specific,LumB,Clin+Genes,peg3,15,15,1.0,gene
+OS,specific,LumB,Clin+Genes,tumor_size,15,15,1.0,clinical
+OS,specific,LumB,Clin+Genes,tumor_stage,15,15,1.0,clinical
+OS,specific,LumB,Clin+Genes,kdm5a,14,15,0.9333333333333333,gene
+OS,specific,LumB,Clin+Genes,cyb5a,13,15,0.8666666666666667,gene
+OS,specific,LumB,Clin+Genes,pms2,13,15,0.8666666666666667,gene
+OS,specific,LumB,Clin+Genes,acvr1b,11,15,0.7333333333333333,gene
+OS,specific,LumB,Clin+Genes,mecom,10,15,0.6666666666666666,gene
+OS,specific,LumB,Clin+Genes,akap9,9,15,0.6,gene
+OS,specific,LumB,Clin+Genes,nr2f1,8,15,0.5333333333333333,gene
+OS,specific,LumB,Clin+Genes,stat2,8,15,0.5333333333333333,gene
+OS,specific,LumB,Clin+Genes,casp6,7,15,0.4666666666666667,gene
+OS,specific,LumB,Clin+Genes,epcam,7,15,0.4666666666666667,gene
+OS,specific,LumB,Clin+Genes,pdgfrb,7,15,0.4666666666666667,gene
+OS,specific,LumB,Clin+Genes,adgra2,6,15,0.4,gene
+OS,specific,LumB,Clin+Genes,bmf,6,15,0.4,gene
+OS,specific,LumB,Clin+Genes,nek1,6,15,0.4,gene
+OS,specific,LumB,Clin+Genes,neoplasm_histologic_grade,6,15,0.4,clinical
+OS,specific,LumB,Clin+Genes,acvr2b,5,15,0.3333333333333333,gene
+OS,specific,LumB,Clin+Genes,casp10,5,15,0.3333333333333333,gene
+OS,specific,LumB,Clin+Genes,foxo3,5,15,0.3333333333333333,gene
+OS,specific,LumB,Clin+Genes,map2,5,15,0.3333333333333333,gene
+OS,specific,LumB,Clin+Genes,map4,5,15,0.3333333333333333,gene
+OS,specific,LumB,Clin+Genes,smad4,5,15,0.3333333333333333,gene
+OS,specific,LumB,Clin+Genes,gdf11,4,15,0.26666666666666666,gene
+OS,specific,LumB,Clin+Genes,gsk3b,4,15,0.26666666666666666,gene
+OS,specific,LumB,Clin+Genes,large1,4,15,0.26666666666666666,gene
+OS,specific,LumB,Clin+Genes,stat5a,4,15,0.26666666666666666,gene
+OS,specific,LumB,Clin+Genes,taf1,4,15,0.26666666666666666,gene
+OS,specific,LumB,Clin+Genes,bard1,3,15,0.2,gene
+OS,specific,LumB,Clin+Genes,casp7,3,15,0.2,gene
+OS,specific,LumB,Clin+Genes,dll3,3,15,0.2,gene
+OS,specific,LumB,Clin+Genes,igf1r,3,15,0.2,gene
+OS,specific,LumB,Clin+Genes,lifr,3,15,0.2,gene
+OS,specific,LumB,Clin+Genes,map3k4,3,15,0.2,gene
+OS,specific,LumB,Clin+Genes,mdm2,3,15,0.2,gene
+OS,specific,LumB,Clin+Genes,rad51c,3,15,0.2,gene
+OS,specific,LumB,Clin+Genes,rbl2,3,15,0.2,gene
+OS,specific,LumB,Clin+Genes,type_of_breast_surgery_BREAST CONSERVING,3,15,0.2,clinical
+OS,specific,LumB,Clin+Genes,type_of_breast_surgery_MASTECTOMY,3,15,0.2,clinical
+OS,specific,LumB,Clin+Genes,vegfa,3,15,0.2,gene
+OS,specific,LumB,Clin+Genes,bmp6,2,15,0.13333333333333333,gene
+OS,specific,LumB,Clin+Genes,brca1,2,15,0.13333333333333333,gene
+OS,specific,LumB,Clin+Genes,dph1,2,15,0.13333333333333333,gene
+OS,specific,LumB,Clin+Genes,hsd17b7,2,15,0.13333333333333333,gene
+OS,specific,LumB,Clin+Genes,jag2,2,15,0.13333333333333333,gene
+OS,specific,LumB,Clin+Genes,l1cam,2,15,0.13333333333333333,gene
+OS,specific,LumB,Clin+Genes,mmp11,2,15,0.13333333333333333,gene
+OS,specific,LumB,Clin+Genes,ncoa3,2,15,0.13333333333333333,gene
+OS,specific,LumB,Clin+Genes,radio_therapy_0,2,15,0.13333333333333333,clinical
+OS,specific,LumB,Clin+Genes,radio_therapy_1,2,15,0.13333333333333333,clinical
+OS,specific,LumB,Clin+Genes,rpgr,2,15,0.13333333333333333,gene
+OS,specific,LumB,Clin+Genes,acvr1c,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,akr1c4,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,bcl2,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,bmp5,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,bmpr1b,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,bmpr2,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,casp9,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,cbfb,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,cellularity_High,1,15,0.06666666666666667,clinical
+OS,specific,LumB,Clin+Genes,col22a1,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,ctnna3,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,fbxw7,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,integrative_cluster_1,1,15,0.06666666666666667,clinical
+OS,specific,LumB,Clin+Genes,integrative_cluster_8,1,15,0.06666666666666667,clinical
+OS,specific,LumB,Clin+Genes,jak2,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,mlh1,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,mmp17,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,mutation_count,1,15,0.06666666666666667,clinical
+OS,specific,LumB,Clin+Genes,ppp2cb,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,pr_status_Negative,1,15,0.06666666666666667,clinical
+OS,specific,LumB,Clin+Genes,pr_status_Positive,1,15,0.06666666666666667,clinical
+OS,specific,LumB,Clin+Genes,prr16,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,rictor,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,snw1,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,tgfb2,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,ugt2b7,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clin+Genes,zfyve9,1,15,0.06666666666666667,gene
+OS,specific,LumB,Clinical,age_at_diagnosis,15,15,1.0,clinical
+OS,specific,LumB,Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,specific,LumB,Clinical,nottingham_prognostic_index,15,15,1.0,clinical
+OS,specific,LumB,Clinical,tumor_size,15,15,1.0,clinical
+OS,specific,LumB,Clinical,tumor_stage,15,15,1.0,clinical
+OS,specific,LumB,Clinical,neoplasm_histologic_grade,3,15,0.2,clinical
+OS,specific,LumB,Clinical,cellularity_High,2,15,0.13333333333333333,clinical
+OS,specific,LumB,Clinical,mutation_count,2,15,0.13333333333333333,clinical
+OS,specific,LumB,Clinical,cellularity_Moderate,1,15,0.06666666666666667,clinical
+OS,specific,LumB,Clinical,integrative_cluster_5,1,15,0.06666666666666667,clinical
+OS,specific,LumB,Clinical,radio_therapy_0,1,15,0.06666666666666667,clinical
+OS,specific,LumB,Clinical,radio_therapy_1,1,15,0.06666666666666667,clinical
+OS,specific,TNBC,Clin+Genes,age_at_diagnosis,15,15,1.0,clinical
+OS,specific,TNBC,Clin+Genes,ccnd2,15,15,1.0,gene
+OS,specific,TNBC,Clin+Genes,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,specific,TNBC,Clin+Genes,nottingham_prognostic_index,15,15,1.0,clinical
+OS,specific,TNBC,Clin+Genes,e2f6,14,15,0.9333333333333333,gene
+OS,specific,TNBC,Clin+Genes,hes1,13,15,0.8666666666666667,gene
+OS,specific,TNBC,Clin+Genes,kdr,12,15,0.8,gene
+OS,specific,TNBC,Clin+Genes,rbpjl,12,15,0.8,gene
+OS,specific,TNBC,Clin+Genes,tumor_size,12,15,0.8,clinical
+OS,specific,TNBC,Clin+Genes,kdm3a,11,15,0.7333333333333333,gene
+OS,specific,TNBC,Clin+Genes,prkcz,9,15,0.6,gene
+OS,specific,TNBC,Clin+Genes,cellularity_High,8,15,0.5333333333333333,clinical
+OS,specific,TNBC,Clin+Genes,type_of_breast_surgery_BREAST CONSERVING,8,15,0.5333333333333333,clinical
+OS,specific,TNBC,Clin+Genes,type_of_breast_surgery_MASTECTOMY,8,15,0.5333333333333333,clinical
+OS,specific,TNBC,Clin+Genes,gsk3b,7,15,0.4666666666666667,gene
+OS,specific,TNBC,Clin+Genes,integrative_cluster_10,6,15,0.4,clinical
+OS,specific,TNBC,Clin+Genes,setd1a,6,15,0.4,gene
+OS,specific,TNBC,Clin+Genes,shbg,6,15,0.4,gene
+OS,specific,TNBC,Clin+Genes,bcl2,5,15,0.3333333333333333,gene
+OS,specific,TNBC,Clin+Genes,dlec1,5,15,0.3333333333333333,gene
+OS,specific,TNBC,Clin+Genes,mapk7,5,15,0.3333333333333333,gene
+OS,specific,TNBC,Clin+Genes,mmp1,5,15,0.3333333333333333,gene
+OS,specific,TNBC,Clin+Genes,nr3c1,5,15,0.3333333333333333,gene
+OS,specific,TNBC,Clin+Genes,prkg1,5,15,0.3333333333333333,gene
+OS,specific,TNBC,Clin+Genes,tumor_stage,5,15,0.3333333333333333,clinical
+OS,specific,TNBC,Clin+Genes,akt1,4,15,0.26666666666666666,gene
+OS,specific,TNBC,Clin+Genes,col22a1,4,15,0.26666666666666666,gene
+OS,specific,TNBC,Clin+Genes,cyp17a1,4,15,0.26666666666666666,gene
+OS,specific,TNBC,Clin+Genes,fancd2,4,15,0.26666666666666666,gene
+OS,specific,TNBC,Clin+Genes,neoplasm_histologic_grade,4,15,0.26666666666666666,clinical
+OS,specific,TNBC,Clin+Genes,radio_therapy_0,4,15,0.26666666666666666,clinical
+OS,specific,TNBC,Clin+Genes,radio_therapy_1,4,15,0.26666666666666666,clinical
+OS,specific,TNBC,Clin+Genes,ugt2b17,4,15,0.26666666666666666,gene
+OS,specific,TNBC,Clin+Genes,abcb1,3,15,0.2,gene
+OS,specific,TNBC,Clin+Genes,apc,3,15,0.2,gene
+OS,specific,TNBC,Clin+Genes,bmp10,3,15,0.2,gene
+OS,specific,TNBC,Clin+Genes,cellularity_Moderate,3,15,0.2,clinical
+OS,specific,TNBC,Clin+Genes,dll3,3,15,0.2,gene
+OS,specific,TNBC,Clin+Genes,fanca,3,15,0.2,gene
+OS,specific,TNBC,Clin+Genes,flt3,3,15,0.2,gene
+OS,specific,TNBC,Clin+Genes,mutation_count,3,15,0.2,clinical
+OS,specific,TNBC,Clin+Genes,notch2,3,15,0.2,gene
+OS,specific,TNBC,Clin+Genes,ptpn22,3,15,0.2,gene
+OS,specific,TNBC,Clin+Genes,stat5b,3,15,0.2,gene
+OS,specific,TNBC,Clin+Genes,arid5b,2,15,0.13333333333333333,gene
+OS,specific,TNBC,Clin+Genes,csf1r,2,15,0.13333333333333333,gene
+OS,specific,TNBC,Clin+Genes,ctnna3,2,15,0.13333333333333333,gene
+OS,specific,TNBC,Clin+Genes,cyp11a1,2,15,0.13333333333333333,gene
+OS,specific,TNBC,Clin+Genes,hsd3b7,2,15,0.13333333333333333,gene
+OS,specific,TNBC,Clin+Genes,maml3,2,15,0.13333333333333333,gene
+OS,specific,TNBC,Clin+Genes,mmp27,2,15,0.13333333333333333,gene
+OS,specific,TNBC,Clin+Genes,pde4dip,2,15,0.13333333333333333,gene
+OS,specific,TNBC,Clin+Genes,ros1,2,15,0.13333333333333333,gene
+OS,specific,TNBC,Clin+Genes,sdc4,2,15,0.13333333333333333,gene
+OS,specific,TNBC,Clin+Genes,smad7,2,15,0.13333333333333333,gene
+OS,specific,TNBC,Clin+Genes,stat3,2,15,0.13333333333333333,gene
+OS,specific,TNBC,Clin+Genes,abcc10,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,acvrl1,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,akt2,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,arid1b,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,arl11,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,aurka,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,bmf,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,bmp15,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,bmp4,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,cdkn1a,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,cul1,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,dnah11,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,dnah5,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,dph1,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,epcam,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,fgf1,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,fn1,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,her2_status_measured_by_snp6_NEUTRAL,1,15,0.06666666666666667,clinical
+OS,specific,TNBC,Clin+Genes,hla-g,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,hormone_therapy_0,1,15,0.06666666666666667,clinical
+OS,specific,TNBC,Clin+Genes,hormone_therapy_1,1,15,0.06666666666666667,clinical
+OS,specific,TNBC,Clin+Genes,hsd17b12,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,hsd17b13,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,hsd17b4,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,hsd17b7,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,inhba,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,integrative_cluster_4ER-,1,15,0.06666666666666667,clinical
+OS,specific,TNBC,Clin+Genes,itgb3,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,jak2,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,klrg1,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,map2k2,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,map3k3,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,map3k4,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,mecom,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,mmp15,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,mmp16,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,mmp21,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,msh6,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,myo3a,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,ncor1,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,nf2,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,palb2,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,pam50_+_claudin-low_subtype_Her2,1,15,0.06666666666666667,clinical
+OS,specific,TNBC,Clin+Genes,pam50_+_claudin-low_subtype_infrequent_sklearn,1,15,0.06666666666666667,clinical
+OS,specific,TNBC,Clin+Genes,ppp2r2a,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,primary_tumor_laterality_Left,1,15,0.06666666666666667,clinical
+OS,specific,TNBC,Clin+Genes,primary_tumor_laterality_Right,1,15,0.06666666666666667,clinical
+OS,specific,TNBC,Clin+Genes,prps2,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,psenen,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,rbpj,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,rfng,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,serpini1,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,setdb1,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,siah1,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,smad9,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,smarcb1,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,stat1,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,syne1,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,tgfbr2,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clin+Genes,tubb4b,1,15,0.06666666666666667,gene
+OS,specific,TNBC,Clinical,age_at_diagnosis,15,15,1.0,clinical
+OS,specific,TNBC,Clinical,lymph_nodes_examined_positive,15,15,1.0,clinical
+OS,specific,TNBC,Clinical,nottingham_prognostic_index,14,15,0.9333333333333333,clinical
+OS,specific,TNBC,Clinical,tumor_size,11,15,0.7333333333333333,clinical
+OS,specific,TNBC,Clinical,tumor_stage,5,15,0.3333333333333333,clinical
+OS,specific,TNBC,Clinical,cellularity_Moderate,3,15,0.2,clinical
+OS,specific,TNBC,Clinical,neoplasm_histologic_grade,3,15,0.2,clinical
+OS,specific,TNBC,Clinical,pam50_+_claudin-low_subtype_claudin-low,3,15,0.2,clinical
+OS,specific,TNBC,Clinical,radio_therapy_0,3,15,0.2,clinical
+OS,specific,TNBC,Clinical,radio_therapy_1,3,15,0.2,clinical
+OS,specific,TNBC,Clinical,type_of_breast_surgery_BREAST CONSERVING,3,15,0.2,clinical
+OS,specific,TNBC,Clinical,type_of_breast_surgery_MASTECTOMY,3,15,0.2,clinical
+OS,specific,TNBC,Clinical,cellularity_High,2,15,0.13333333333333333,clinical
+OS,specific,TNBC,Clinical,inferred_menopausal_state_Post,2,15,0.13333333333333333,clinical
+OS,specific,TNBC,Clinical,inferred_menopausal_state_Pre,2,15,0.13333333333333333,clinical
+OS,specific,TNBC,Clinical,pam50_+_claudin-low_subtype_Basal,2,15,0.13333333333333333,clinical
+OS,specific,TNBC,Clinical,integrative_cluster_10,1,15,0.06666666666666667,clinical
+OS,specific,TNBC,Clinical,mutation_count,1,15,0.06666666666666667,clinical
+OS,specific,TNBC,Clinical,pam50_+_claudin-low_subtype_Her2,1,15,0.06666666666666667,clinical
+OS,specific,TNBC,Clinical,primary_tumor_laterality_Left,1,15,0.06666666666666667,clinical
+OS,specific,TNBC,Clinical,primary_tumor_laterality_Right,1,15,0.06666666666666667,clinical
