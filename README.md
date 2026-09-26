@@ -9,6 +9,6 @@ pip install -r requirements.txt
 python metabric_subtype_survival.py --data METABRIC_RNA_Mutation.csv
 ```
 
-`results/` contains the output of the run reported in the paper (figures in `results/figures.zip`).
+`results/` contains the output of the run reported in the paper .
 
 License: MIT
