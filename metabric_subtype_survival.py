@@ -367,7 +367,7 @@ def safe(fn, default=np.nan):
         return default
 
 
-def compute_metrics(y_tr, y_te, risk, S=None, grid=None, thr=None):
+def compute_metrics(y_tr, y_te, risk, S=None, grid=None, thr=None, S60=None):
     r = {"n": len(y_te), "events": int(y_te["event"].sum())}
     if r["events"] < 3 or len(y_te) < 10:
         return r
@@ -389,9 +389,8 @@ def compute_metrics(y_tr, y_te, risk, S=None, grid=None, thr=None):
             if S is not None:
                 Sk = S[keep][:, np.isin(grid, g)]
                 r["ibs"] = safe(lambda: integrated_brier_score(y_tr, yk, Sk, g))
-        if S is not None and lo < HORIZON < hi:
-            j = int(np.argmin(np.abs(grid - HORIZON)))
-            r["brier_5y"] = safe(lambda: brier_score(y_tr, yk, S[keep][:, j], [grid[j]])[1][0])
+    if S60 is not None and lo < HORIZON < hi:
+        r["brier_5y"] = safe(lambda: brier_score(y_tr, yk, S60[keep], [HORIZON])[1][0])
 
     lab, known = binary_labels(y_te)
     if known.sum() >= 10 and len(np.unique(lab[known])) == 2:
@@ -407,9 +406,8 @@ def compute_metrics(y_tr, y_te, risk, S=None, grid=None, thr=None):
                  ppv=tp / max(tp + fp, 1), npv=tn / max(tn + fn, 1),
                  f1=f1_score(L, pred, zero_division=0), mcc=matthews_corrcoef(L, pred),
                  kappa=cohen_kappa_score(L, pred))
-        if S is not None and grid is not None:
-            j = int(np.argmin(np.abs(grid - HORIZON)))
-            r["brier_5y_binary"] = np.mean((1 - S[known, j] - L) ** 2)
+        if S60 is not None:
+            r["brier_5y_binary"] = np.mean((1 - S60[known] - L) ** 2)
     return r
 
 
@@ -446,7 +444,9 @@ def fit_predict(model_fn, Xtr, ytr, Xte, grid):
     fit_s = time.time() - t0
     risk_te, risk_tr = m.predict(Xte), m.predict(Xtr)
     S_te = surv_matrix(m, Xte, grid)
-    return m, risk_te, risk_tr, S_te, fit_s
+    S60 = surv_matrix(m, Xte, np.array([HORIZON]))
+    S60 = S60[:, 0] if S60 is not None else None
+    return m, risk_te, risk_tr, S_te, S60, fit_s
 
 
 def run_cv(df, groups, subgroups, cfg, log):
@@ -480,15 +480,14 @@ def run_cv(df, groups, subgroups, cfg, log):
                     if fs_name == "NPI" and mname != "CoxPH":
                         continue
                     try:
-                        m, rte, rtr, Ste, fit_s = fit_predict(mfn, Xtr, y[tr], Xte, grid)
+                        m, rte, rtr, Ste, S60, fit_s = fit_predict(mfn, Xtr, y[tr], Xte, grid)
                     except Exception as e:
                         log(f"  fit failed global {ep}/{fs_name}/{mname}: {str(e)[:120]}"); continue
-                    j5 = int(np.argmin(np.abs(grid - HORIZON)))
                     oof.append(pd.DataFrame({"repeat": r, "fold": k, "endpoint": ep, "strategy": "global",
                                              "trained_on": "All", "model": mname, "feature_set": fs_name,
                                              "idx": te, "risk": rte,
                                              "risk_pct": stats.rankdata(rte) / len(rte),
-                                             "p_event_5y": (1 - Ste[:, j5]) if Ste is not None else np.nan}))
+                                             "p_event_5y": (1 - S60) if S60 is not None else np.nan}))
                     if mname == "CoxNet" and hasattr(m, "coef_"):
                         nz = [prep.names_[i] for i in np.flatnonzero(np.abs(m.coef_) > 1e-8)]
                         coefs.append({"repeat": r, "fold": k, "endpoint": ep, "strategy": "global", "subgroup": "All",
@@ -499,10 +498,11 @@ def run_cv(df, groups, subgroups, cfg, log):
                             continue
                         thr = youden_threshold(rtr[mtr], y[tr][mtr])
                         met = compute_metrics(y[tr][mtr], y[te][mte], rte[mte],
-                                              Ste[mte] if Ste is not None else None, grid, thr)
+                                              Ste[mte] if Ste is not None else None, grid, thr,
+                                              S60[mte] if S60 is not None else None)
                         rec.append({"repeat": r, "fold": k, "endpoint": ep, "strategy": "global", "subgroup": sg,
                                     "model": mname, "feature_set": fs_name, "n_train": int(mtr.sum()),
-                                    "n_train_total": len(tr), "fit_sec": fit_s, **met})
+                                    "events_train": int(y["event"][tr][mtr].sum()), "n_train_total": len(tr), "fit_sec": fit_s, **met})
 
 
             for sg, mask in subgroups.items():
@@ -519,24 +519,23 @@ def run_cv(df, groups, subgroups, cfg, log):
                         log(f"  prep failed specific {ep}/{sg}/{fs_name}: {e}"); continue
                     for mname, mfn in MODELS.items():
                         try:
-                            m, rte, rtr, Ste, fit_s = fit_predict(mfn, Xtr, y[str_], Xte, grid)
+                            m, rte, rtr, Ste, S60, fit_s = fit_predict(mfn, Xtr, y[str_], Xte, grid)
                         except Exception as e:
                             log(f"  fit failed specific {ep}/{sg}/{fs_name}/{mname}: {str(e)[:120]}"); continue
-                        j5 = int(np.argmin(np.abs(grid - HORIZON)))
                         oof.append(pd.DataFrame({"repeat": r, "fold": k, "endpoint": ep, "strategy": "specific",
                                                  "trained_on": sg, "model": mname, "feature_set": fs_name,
                                                  "idx": ste_, "risk": rte,
                                                  "risk_pct": stats.rankdata(rte) / len(rte),
-                                                 "p_event_5y": (1 - Ste[:, j5]) if Ste is not None else np.nan}))
+                                                 "p_event_5y": (1 - S60) if S60 is not None else np.nan}))
                         if mname == "CoxNet" and hasattr(m, "coef_"):
                             nz = [prep.names_[i] for i in np.flatnonzero(np.abs(m.coef_) > 1e-8)]
                             coefs.append({"repeat": r, "fold": k, "endpoint": ep, "strategy": "specific",
                                           "subgroup": sg, "feature_set": fs_name, "selected": nz})
                         thr = youden_threshold(rtr, y[str_])
-                        met = compute_metrics(y[str_], y[ste_], rte, Ste, grid, thr)
+                        met = compute_metrics(y[str_], y[ste_], rte, Ste, grid, thr, S60)
                         rec.append({"repeat": r, "fold": k, "endpoint": ep, "strategy": "specific", "subgroup": sg,
                                     "model": mname, "feature_set": fs_name, "n_train": len(str_),
-                                    "n_train_total": len(str_), "fit_sec": fit_s, **met})
+                                    "events_train": int(y["event"][str_].sum()), "n_train_total": len(str_), "fit_sec": fit_s, **met})
         log(f"Fold {fi + 1}/{total} (repeat {r + 1}, fold {k + 1}) done in {time.time() - tf:.0f}s")
     return pd.DataFrame(rec), pd.concat(oof, ignore_index=True), coefs
 
@@ -1093,7 +1092,7 @@ def oof_analyses(df, summ, oof, subgroups, out, log, cfg):
         tabs.append(cox_table(dd, "os_time", evcol, ["ML_risk_score_per_SD"], "univariable | All"))
         tabs.append(cox_table(dd, "os_time", evcol, ["ML_risk_score_per_SD"] + adj + [SUBTYPE_COL], "multivariable | All"))
         tabs.append(cox_table(dd, "os_time", evcol, adj + [SUBTYPE_COL], "clinical-only reference | All"))
-        for sg in [s for s in subgroups if s not in ("All", "LumA")]:
+        for sg in [s for s in subgroups if s != "All"]:
             m = subgroups[sg][dd.index.values]
             tabs.append(cox_table(dd[m], "os_time", evcol, ["ML_risk_score_per_SD", "age_at_diagnosis", "nottingham_prognostic_index"],
                                   f"multivariable | {sg}"))
@@ -1327,6 +1326,9 @@ def main():
     df, groups = load_data(cfg.data, log, cfg.exclude_treatment)
     subgroups = define_subgroups(df)
     log("Subgroups:", {k: int(v.sum()) for k, v in subgroups.items()})
+    parts = [pd.DataFrame({"repeat": r_, "fold": k_, "row_index": te_, "patient_id": df["patient_id"].values[te_]})
+             for r_, k_, _, te_ in make_folds(df, cfg.folds, cfg.repeats, cfg.seed)]
+    pd.concat(parts).to_csv(os.path.join(out, "predictions", "cv_partitions_test_sets.csv"), index=False)
 
     steps = {}
     try:
