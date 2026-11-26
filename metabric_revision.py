@@ -62,6 +62,22 @@ def paired_test(d_spec, d_ref, keys, metric, n_sg):
                 win_rate=np.mean(diff > 0), n_pairs=len(diff))
 
 
+def boot_p(b):
+    b = np.asarray(b, float)
+    if not len(b):
+        return np.nan
+    tie = 0.5 * np.mean(b == 0)
+    return float(min(1.0, 2 * min(np.mean(b > 0) + tie, np.mean(b < 0) + tie)))
+
+
+def by(p):
+    p = np.asarray(p, float); n = len(p); o = np.argsort(p)[::-1]
+    c = np.sum(1.0 / np.arange(1, n + 1))
+    adj = np.minimum.accumulate(p[o] * n * c / np.arange(n, 0, -1))
+    out = np.empty(n); out[o] = np.minimum(adj, 1)
+    return out
+
+
 def holm(p):
     p = np.asarray(p, float); n = len(p); o = np.argsort(p)
     adj = np.maximum.accumulate((n - np.arange(n)) * p[o])
@@ -129,8 +145,10 @@ def part_multiplicity(main_dir, out, log):
     cmp = pd.read_csv(os.path.join(main_dir, "tables", "T09_specific_vs_global_paired_tests.csv"))
     cmp["holm_uno_c"] = np.nan
     cmp["q_bh_nonoverlapping_uno_c"] = np.nan
+    cmp["q_by_uno_c"] = np.nan
     for ep, d in cmp.groupby("endpoint"):
         cmp.loc[d.index, "holm_uno_c"] = holm(d.p_corrected_t_uno_c.values)
+        cmp.loc[d.index, "q_by_uno_c"] = by(d.p_corrected_t_uno_c.values)
         dn = d[d.subgroup.isin(NONOVERLAP)]
         cmp.loc[dn.index, "q_bh_nonoverlapping_uno_c"] = M.bh(dn.p_corrected_t_uno_c.values)
     cmp.to_csv(os.path.join(out, "R05_paired_tests_with_alternative_multiplicity.csv"), index=False)
@@ -146,7 +164,8 @@ def part_multiplicity(main_dir, out, log):
                              "BH_q<0.05_favour_pooled": int(((x.delta_uno_c < 0) & (x.q_bh_uno_c < 0.05)).sum()) if name == "all 112" else
                              int(((x.delta_uno_c < 0) & (x.q_bh_nonoverlapping_uno_c < 0.05)).sum()),
                              "Holm<0.05_favour_pooled": int(((x.delta_uno_c < 0) & (x.holm_uno_c < 0.05)).sum()),
-                             "sign_test_p_two_sided": stats.binomtest(int((x.delta_uno_c < 0).sum()), len(x)).pvalue if len(x) else np.nan})
+                             "BY_q<0.05_favour_pooled": int(((x.delta_uno_c < 0) & (x.q_by_uno_c < 0.05)).sum()),
+                             "any_correction_favour_specific": int(((x.delta_uno_c > 0) & (x.holm_uno_c < 0.05)).sum())})
     pd.DataFrame(rows).to_csv(os.path.join(out, "R05b_multiplicity_summary.csv"), index=False)
     log("P2 multiplicity done")
 
@@ -193,7 +212,7 @@ def part_patient_bootstrap(df, folds, subgroups, main_dir, out, log, B=500, seed
                 rows.append({"endpoint": ep, "subgroup": sg, "feature_set": fs, "learner": best,
                              "delta_harrell_c_specific_minus_pooled": obs,
                              "boot_ci_low": np.percentile(boots, 2.5), "boot_ci_high": np.percentile(boots, 97.5),
-                             "boot_p_two_sided": 2 * min(np.mean(boots >= 0), np.mean(boots <= 0)), "B": len(boots)})
+                             "boot_p_two_sided": boot_p(boots), "B": len(boots)})
     pd.DataFrame(rows).to_csv(os.path.join(out, "R06_patient_bootstrap_delta_c_best_learner.csv"), index=False)
     log("P2b patient-level bootstrap done")
 
@@ -770,7 +789,7 @@ def part_tcga(df, groups, subgroups, cfg, out, log, B=1000):
                                  "n_tcga": int(mt.sum()), "events_tcga": int(ee.sum()),
                                  "harrell_c_pooled": cp, "harrell_c_specific": cs, "delta_harrell_c": cs - cp,
                                  "delta_ci_low": np.percentile(bd, 2.5), "delta_ci_high": np.percentile(bd, 97.5),
-                                 "boot_p_two_sided": 2 * min(np.mean(bd >= 0), np.mean(bd <= 0)),
+                                 "boot_p_two_sided": boot_p(bd),
                                  "uno_c_pooled_tau": up, "uno_c_specific_tau": us, "tau_months": tau})
             r_all = {mn: fast_cindex(yt["time"], yt["event"], pooled_risk[mn]) for mn in L}
             for mn, c in r_all.items():
